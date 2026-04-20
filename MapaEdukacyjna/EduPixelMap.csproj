@@ -78,5 +78,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="GenMap1.png" />
+    <Content Include="GenMap2.png" />
+    <Content Include="GenMap3.png" />
+    <Content Include="GenMap4.png" />
+    <Content Include="GenMap5.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

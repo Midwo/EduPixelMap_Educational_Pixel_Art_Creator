@@ -471,12 +471,12 @@
             this.I14 = new System.Windows.Forms.Button();
             this.I13 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.zapiszWydrukToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.punktyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PrintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.planszaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.planszaKolorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.planszaNaBlokKolorowyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.wyczyśćToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ResetGridToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.button13 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -1029,6 +1029,7 @@
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(38, 32);
             this.C1.TabIndex = 128;
+            this.C1.Tag = "grid";
             this.C1.UseVisualStyleBackColor = false;
             this.C1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1482,6 +1483,7 @@
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(38, 32);
             this.A1.TabIndex = 38;
+            this.A1.Tag = "grid";
             this.A1.UseVisualStyleBackColor = false;
             this.A1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1495,6 +1497,7 @@
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(38, 32);
             this.B1.TabIndex = 39;
+            this.B1.Tag = "grid";
             this.B1.UseVisualStyleBackColor = false;
             this.B1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1508,6 +1511,7 @@
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(38, 32);
             this.A4.TabIndex = 42;
+            this.A4.Tag = "grid";
             this.A4.UseVisualStyleBackColor = false;
             this.A4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1521,6 +1525,7 @@
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(38, 32);
             this.A5.TabIndex = 43;
+            this.A5.Tag = "grid";
             this.A5.UseVisualStyleBackColor = false;
             this.A5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1534,6 +1539,7 @@
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(38, 32);
             this.A6.TabIndex = 44;
+            this.A6.Tag = "grid";
             this.A6.UseVisualStyleBackColor = false;
             this.A6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1547,6 +1553,7 @@
             this.A7.Name = "A7";
             this.A7.Size = new System.Drawing.Size(38, 32);
             this.A7.TabIndex = 45;
+            this.A7.Tag = "grid";
             this.A7.UseVisualStyleBackColor = false;
             this.A7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1560,6 +1567,7 @@
             this.A8.Name = "A8";
             this.A8.Size = new System.Drawing.Size(38, 32);
             this.A8.TabIndex = 46;
+            this.A8.Tag = "grid";
             this.A8.UseVisualStyleBackColor = false;
             this.A8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1573,6 +1581,7 @@
             this.A9.Name = "A9";
             this.A9.Size = new System.Drawing.Size(38, 32);
             this.A9.TabIndex = 47;
+            this.A9.Tag = "grid";
             this.A9.UseVisualStyleBackColor = false;
             this.A9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1586,6 +1595,7 @@
             this.A10.Name = "A10";
             this.A10.Size = new System.Drawing.Size(38, 32);
             this.A10.TabIndex = 48;
+            this.A10.Tag = "grid";
             this.A10.UseVisualStyleBackColor = false;
             this.A10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1599,6 +1609,7 @@
             this.A11.Name = "A11";
             this.A11.Size = new System.Drawing.Size(38, 32);
             this.A11.TabIndex = 49;
+            this.A11.Tag = "grid";
             this.A11.UseVisualStyleBackColor = false;
             this.A11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1612,6 +1623,7 @@
             this.A12.Name = "A12";
             this.A12.Size = new System.Drawing.Size(38, 32);
             this.A12.TabIndex = 50;
+            this.A12.Tag = "grid";
             this.A12.UseVisualStyleBackColor = false;
             this.A12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1625,6 +1637,7 @@
             this.A13.Name = "A13";
             this.A13.Size = new System.Drawing.Size(38, 32);
             this.A13.TabIndex = 51;
+            this.A13.Tag = "grid";
             this.A13.UseVisualStyleBackColor = false;
             this.A13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1638,6 +1651,7 @@
             this.A14.Name = "A14";
             this.A14.Size = new System.Drawing.Size(38, 32);
             this.A14.TabIndex = 52;
+            this.A14.Tag = "grid";
             this.A14.UseVisualStyleBackColor = false;
             this.A14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1651,6 +1665,7 @@
             this.A15.Name = "A15";
             this.A15.Size = new System.Drawing.Size(38, 32);
             this.A15.TabIndex = 53;
+            this.A15.Tag = "grid";
             this.A15.UseVisualStyleBackColor = false;
             this.A15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1664,6 +1679,7 @@
             this.A16.Name = "A16";
             this.A16.Size = new System.Drawing.Size(38, 32);
             this.A16.TabIndex = 54;
+            this.A16.Tag = "grid";
             this.A16.UseVisualStyleBackColor = false;
             this.A16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1677,6 +1693,7 @@
             this.A17.Name = "A17";
             this.A17.Size = new System.Drawing.Size(38, 32);
             this.A17.TabIndex = 55;
+            this.A17.Tag = "grid";
             this.A17.UseVisualStyleBackColor = false;
             this.A17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1690,6 +1707,7 @@
             this.E8.Name = "E8";
             this.E8.Size = new System.Drawing.Size(38, 32);
             this.E8.TabIndex = 57;
+            this.E8.Tag = "grid";
             this.E8.UseVisualStyleBackColor = false;
             this.E8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1703,6 +1721,7 @@
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(38, 32);
             this.B2.TabIndex = 58;
+            this.B2.Tag = "grid";
             this.B2.UseVisualStyleBackColor = false;
             this.B2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1716,6 +1735,7 @@
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(38, 32);
             this.C2.TabIndex = 60;
+            this.C2.Tag = "grid";
             this.C2.UseVisualStyleBackColor = false;
             this.C2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1729,6 +1749,7 @@
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(38, 32);
             this.B3.TabIndex = 61;
+            this.B3.Tag = "grid";
             this.B3.UseVisualStyleBackColor = false;
             this.B3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1742,6 +1763,7 @@
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(38, 32);
             this.C3.TabIndex = 62;
+            this.C3.Tag = "grid";
             this.C3.UseVisualStyleBackColor = false;
             this.C3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1755,6 +1777,7 @@
             this.B4.Name = "B4";
             this.B4.Size = new System.Drawing.Size(38, 32);
             this.B4.TabIndex = 63;
+            this.B4.Tag = "grid";
             this.B4.UseVisualStyleBackColor = false;
             this.B4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1768,6 +1791,7 @@
             this.C4.Name = "C4";
             this.C4.Size = new System.Drawing.Size(38, 32);
             this.C4.TabIndex = 64;
+            this.C4.Tag = "grid";
             this.C4.UseVisualStyleBackColor = false;
             this.C4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1781,6 +1805,7 @@
             this.B5.Name = "B5";
             this.B5.Size = new System.Drawing.Size(38, 32);
             this.B5.TabIndex = 65;
+            this.B5.Tag = "grid";
             this.B5.UseVisualStyleBackColor = false;
             this.B5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1794,6 +1819,7 @@
             this.C5.Name = "C5";
             this.C5.Size = new System.Drawing.Size(38, 32);
             this.C5.TabIndex = 66;
+            this.C5.Tag = "grid";
             this.C5.UseVisualStyleBackColor = false;
             this.C5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1807,6 +1833,7 @@
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(38, 32);
             this.A2.TabIndex = 41;
+            this.A2.Tag = "grid";
             this.A2.UseVisualStyleBackColor = false;
             this.A2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1820,6 +1847,7 @@
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(38, 32);
             this.A3.TabIndex = 40;
+            this.A3.Tag = "grid";
             this.A3.UseVisualStyleBackColor = false;
             this.A3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1833,6 +1861,7 @@
             this.D5.Name = "D5";
             this.D5.Size = new System.Drawing.Size(38, 32);
             this.D5.TabIndex = 67;
+            this.D5.Tag = "grid";
             this.D5.UseVisualStyleBackColor = false;
             this.D5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1846,6 +1875,7 @@
             this.D4.Name = "D4";
             this.D4.Size = new System.Drawing.Size(38, 32);
             this.D4.TabIndex = 68;
+            this.D4.Tag = "grid";
             this.D4.UseVisualStyleBackColor = false;
             this.D4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1859,6 +1889,7 @@
             this.D3.Name = "D3";
             this.D3.Size = new System.Drawing.Size(38, 32);
             this.D3.TabIndex = 69;
+            this.D3.Tag = "grid";
             this.D3.UseVisualStyleBackColor = false;
             this.D3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1872,6 +1903,7 @@
             this.D2.Name = "D2";
             this.D2.Size = new System.Drawing.Size(38, 32);
             this.D2.TabIndex = 70;
+            this.D2.Tag = "grid";
             this.D2.UseVisualStyleBackColor = false;
             this.D2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1885,6 +1917,7 @@
             this.D1.Name = "D1";
             this.D1.Size = new System.Drawing.Size(38, 32);
             this.D1.TabIndex = 71;
+            this.D1.Tag = "grid";
             this.D1.UseVisualStyleBackColor = false;
             this.D1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1898,6 +1931,7 @@
             this.E1.Name = "E1";
             this.E1.Size = new System.Drawing.Size(38, 32);
             this.E1.TabIndex = 72;
+            this.E1.Tag = "grid";
             this.E1.UseVisualStyleBackColor = false;
             this.E1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1911,6 +1945,7 @@
             this.E2.Name = "E2";
             this.E2.Size = new System.Drawing.Size(38, 32);
             this.E2.TabIndex = 73;
+            this.E2.Tag = "grid";
             this.E2.UseVisualStyleBackColor = false;
             this.E2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1924,6 +1959,7 @@
             this.E3.Name = "E3";
             this.E3.Size = new System.Drawing.Size(38, 32);
             this.E3.TabIndex = 74;
+            this.E3.Tag = "grid";
             this.E3.UseVisualStyleBackColor = false;
             this.E3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1937,6 +1973,7 @@
             this.E4.Name = "E4";
             this.E4.Size = new System.Drawing.Size(38, 32);
             this.E4.TabIndex = 75;
+            this.E4.Tag = "grid";
             this.E4.UseVisualStyleBackColor = false;
             this.E4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1950,6 +1987,7 @@
             this.E5.Name = "E5";
             this.E5.Size = new System.Drawing.Size(38, 32);
             this.E5.TabIndex = 76;
+            this.E5.Tag = "grid";
             this.E5.UseVisualStyleBackColor = false;
             this.E5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1963,6 +2001,7 @@
             this.B6.Name = "B6";
             this.B6.Size = new System.Drawing.Size(38, 32);
             this.B6.TabIndex = 77;
+            this.B6.Tag = "grid";
             this.B6.UseVisualStyleBackColor = false;
             this.B6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1976,6 +2015,7 @@
             this.C6.Name = "C6";
             this.C6.Size = new System.Drawing.Size(38, 32);
             this.C6.TabIndex = 78;
+            this.C6.Tag = "grid";
             this.C6.UseVisualStyleBackColor = false;
             this.C6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -1989,6 +2029,7 @@
             this.D6.Name = "D6";
             this.D6.Size = new System.Drawing.Size(38, 32);
             this.D6.TabIndex = 79;
+            this.D6.Tag = "grid";
             this.D6.UseVisualStyleBackColor = false;
             this.D6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2002,6 +2043,7 @@
             this.E6.Name = "E6";
             this.E6.Size = new System.Drawing.Size(38, 32);
             this.E6.TabIndex = 80;
+            this.E6.Tag = "grid";
             this.E6.UseVisualStyleBackColor = false;
             this.E6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2015,6 +2057,7 @@
             this.B7.Name = "B7";
             this.B7.Size = new System.Drawing.Size(38, 32);
             this.B7.TabIndex = 81;
+            this.B7.Tag = "grid";
             this.B7.UseVisualStyleBackColor = false;
             this.B7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2028,6 +2071,7 @@
             this.C7.Name = "C7";
             this.C7.Size = new System.Drawing.Size(38, 32);
             this.C7.TabIndex = 82;
+            this.C7.Tag = "grid";
             this.C7.UseVisualStyleBackColor = false;
             this.C7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2041,6 +2085,7 @@
             this.D7.Name = "D7";
             this.D7.Size = new System.Drawing.Size(38, 32);
             this.D7.TabIndex = 83;
+            this.D7.Tag = "grid";
             this.D7.UseVisualStyleBackColor = false;
             this.D7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2054,6 +2099,7 @@
             this.E7.Name = "E7";
             this.E7.Size = new System.Drawing.Size(38, 32);
             this.E7.TabIndex = 84;
+            this.E7.Tag = "grid";
             this.E7.UseVisualStyleBackColor = false;
             this.E7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2067,6 +2113,7 @@
             this.B8.Name = "B8";
             this.B8.Size = new System.Drawing.Size(38, 32);
             this.B8.TabIndex = 85;
+            this.B8.Tag = "grid";
             this.B8.UseVisualStyleBackColor = false;
             this.B8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2080,6 +2127,7 @@
             this.C8.Name = "C8";
             this.C8.Size = new System.Drawing.Size(38, 32);
             this.C8.TabIndex = 86;
+            this.C8.Tag = "grid";
             this.C8.UseVisualStyleBackColor = false;
             this.C8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2093,6 +2141,7 @@
             this.D8.Name = "D8";
             this.D8.Size = new System.Drawing.Size(38, 32);
             this.D8.TabIndex = 87;
+            this.D8.Tag = "grid";
             this.D8.UseVisualStyleBackColor = false;
             this.D8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2106,6 +2155,7 @@
             this.B9.Name = "B9";
             this.B9.Size = new System.Drawing.Size(38, 32);
             this.B9.TabIndex = 88;
+            this.B9.Tag = "grid";
             this.B9.UseVisualStyleBackColor = false;
             this.B9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2119,6 +2169,7 @@
             this.C9.Name = "C9";
             this.C9.Size = new System.Drawing.Size(38, 32);
             this.C9.TabIndex = 89;
+            this.C9.Tag = "grid";
             this.C9.UseVisualStyleBackColor = false;
             this.C9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2132,6 +2183,7 @@
             this.D9.Name = "D9";
             this.D9.Size = new System.Drawing.Size(38, 32);
             this.D9.TabIndex = 90;
+            this.D9.Tag = "grid";
             this.D9.UseVisualStyleBackColor = false;
             this.D9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2145,6 +2197,7 @@
             this.E9.Name = "E9";
             this.E9.Size = new System.Drawing.Size(38, 32);
             this.E9.TabIndex = 91;
+            this.E9.Tag = "grid";
             this.E9.UseVisualStyleBackColor = false;
             this.E9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2158,6 +2211,7 @@
             this.B10.Name = "B10";
             this.B10.Size = new System.Drawing.Size(38, 32);
             this.B10.TabIndex = 92;
+            this.B10.Tag = "grid";
             this.B10.UseVisualStyleBackColor = false;
             this.B10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2171,6 +2225,7 @@
             this.B11.Name = "B11";
             this.B11.Size = new System.Drawing.Size(38, 32);
             this.B11.TabIndex = 96;
+            this.B11.Tag = "grid";
             this.B11.UseVisualStyleBackColor = false;
             this.B11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2184,6 +2239,7 @@
             this.B12.Name = "B12";
             this.B12.Size = new System.Drawing.Size(38, 32);
             this.B12.TabIndex = 100;
+            this.B12.Tag = "grid";
             this.B12.UseVisualStyleBackColor = false;
             this.B12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2197,6 +2253,7 @@
             this.B13.Name = "B13";
             this.B13.Size = new System.Drawing.Size(38, 32);
             this.B13.TabIndex = 104;
+            this.B13.Tag = "grid";
             this.B13.UseVisualStyleBackColor = false;
             this.B13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2210,6 +2267,7 @@
             this.B14.Name = "B14";
             this.B14.Size = new System.Drawing.Size(38, 32);
             this.B14.TabIndex = 107;
+            this.B14.Tag = "grid";
             this.B14.UseVisualStyleBackColor = false;
             this.B14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2223,6 +2281,7 @@
             this.F1.Name = "F1";
             this.F1.Size = new System.Drawing.Size(38, 32);
             this.F1.TabIndex = 110;
+            this.F1.Tag = "grid";
             this.F1.UseVisualStyleBackColor = false;
             this.F1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2236,6 +2295,7 @@
             this.G1.Name = "G1";
             this.G1.Size = new System.Drawing.Size(38, 32);
             this.G1.TabIndex = 111;
+            this.G1.Tag = "grid";
             this.G1.UseVisualStyleBackColor = false;
             this.G1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2249,6 +2309,7 @@
             this.H1.Name = "H1";
             this.H1.Size = new System.Drawing.Size(38, 32);
             this.H1.TabIndex = 112;
+            this.H1.Tag = "grid";
             this.H1.UseVisualStyleBackColor = false;
             this.H1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2262,6 +2323,7 @@
             this.F2.Name = "F2";
             this.F2.Size = new System.Drawing.Size(38, 32);
             this.F2.TabIndex = 113;
+            this.F2.Tag = "grid";
             this.F2.UseVisualStyleBackColor = false;
             this.F2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2275,6 +2337,7 @@
             this.G2.Name = "G2";
             this.G2.Size = new System.Drawing.Size(38, 32);
             this.G2.TabIndex = 114;
+            this.G2.Tag = "grid";
             this.G2.UseVisualStyleBackColor = false;
             this.G2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2288,6 +2351,7 @@
             this.H2.Name = "H2";
             this.H2.Size = new System.Drawing.Size(38, 32);
             this.H2.TabIndex = 115;
+            this.H2.Tag = "grid";
             this.H2.UseVisualStyleBackColor = false;
             this.H2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2301,6 +2365,7 @@
             this.F3.Name = "F3";
             this.F3.Size = new System.Drawing.Size(38, 32);
             this.F3.TabIndex = 116;
+            this.F3.Tag = "grid";
             this.F3.UseVisualStyleBackColor = false;
             this.F3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2314,6 +2379,7 @@
             this.G3.Name = "G3";
             this.G3.Size = new System.Drawing.Size(38, 32);
             this.G3.TabIndex = 117;
+            this.G3.Tag = "grid";
             this.G3.UseVisualStyleBackColor = false;
             this.G3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2327,6 +2393,7 @@
             this.H3.Name = "H3";
             this.H3.Size = new System.Drawing.Size(38, 32);
             this.H3.TabIndex = 118;
+            this.H3.Tag = "grid";
             this.H3.UseVisualStyleBackColor = false;
             this.H3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2340,6 +2407,7 @@
             this.F4.Name = "F4";
             this.F4.Size = new System.Drawing.Size(38, 32);
             this.F4.TabIndex = 119;
+            this.F4.Tag = "grid";
             this.F4.UseVisualStyleBackColor = false;
             this.F4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2353,6 +2421,7 @@
             this.G4.Name = "G4";
             this.G4.Size = new System.Drawing.Size(38, 32);
             this.G4.TabIndex = 120;
+            this.G4.Tag = "grid";
             this.G4.UseVisualStyleBackColor = false;
             this.G4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2366,6 +2435,7 @@
             this.H4.Name = "H4";
             this.H4.Size = new System.Drawing.Size(38, 32);
             this.H4.TabIndex = 121;
+            this.H4.Tag = "grid";
             this.H4.UseVisualStyleBackColor = false;
             this.H4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2379,6 +2449,7 @@
             this.F5.Name = "F5";
             this.F5.Size = new System.Drawing.Size(38, 32);
             this.F5.TabIndex = 122;
+            this.F5.Tag = "grid";
             this.F5.UseVisualStyleBackColor = false;
             this.F5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2392,6 +2463,7 @@
             this.H5.Name = "H5";
             this.H5.Size = new System.Drawing.Size(38, 32);
             this.H5.TabIndex = 123;
+            this.H5.Tag = "grid";
             this.H5.UseVisualStyleBackColor = false;
             this.H5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2405,6 +2477,7 @@
             this.G5.Name = "G5";
             this.G5.Size = new System.Drawing.Size(38, 32);
             this.G5.TabIndex = 124;
+            this.G5.Tag = "grid";
             this.G5.UseVisualStyleBackColor = false;
             this.G5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2418,6 +2491,7 @@
             this.F6.Name = "F6";
             this.F6.Size = new System.Drawing.Size(38, 32);
             this.F6.TabIndex = 125;
+            this.F6.Tag = "grid";
             this.F6.UseVisualStyleBackColor = false;
             this.F6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2431,6 +2505,7 @@
             this.G6.Name = "G6";
             this.G6.Size = new System.Drawing.Size(38, 32);
             this.G6.TabIndex = 126;
+            this.G6.Tag = "grid";
             this.G6.UseVisualStyleBackColor = false;
             this.G6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2444,6 +2519,7 @@
             this.H7.Name = "H7";
             this.H7.Size = new System.Drawing.Size(38, 32);
             this.H7.TabIndex = 59;
+            this.H7.Tag = "grid";
             this.H7.UseVisualStyleBackColor = false;
             this.H7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2457,6 +2533,7 @@
             this.G7.Name = "G7";
             this.G7.Size = new System.Drawing.Size(38, 32);
             this.G7.TabIndex = 127;
+            this.G7.Tag = "grid";
             this.G7.UseVisualStyleBackColor = false;
             this.G7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2470,6 +2547,7 @@
             this.H6.Name = "H6";
             this.H6.Size = new System.Drawing.Size(38, 32);
             this.H6.TabIndex = 129;
+            this.H6.Tag = "grid";
             this.H6.UseVisualStyleBackColor = false;
             this.H6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2483,6 +2561,7 @@
             this.F7.Name = "F7";
             this.F7.Size = new System.Drawing.Size(38, 32);
             this.F7.TabIndex = 130;
+            this.F7.Tag = "grid";
             this.F7.UseVisualStyleBackColor = false;
             this.F7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2496,6 +2575,7 @@
             this.F8.Name = "F8";
             this.F8.Size = new System.Drawing.Size(38, 32);
             this.F8.TabIndex = 131;
+            this.F8.Tag = "grid";
             this.F8.UseVisualStyleBackColor = false;
             this.F8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2509,6 +2589,7 @@
             this.G8.Name = "G8";
             this.G8.Size = new System.Drawing.Size(38, 32);
             this.G8.TabIndex = 132;
+            this.G8.Tag = "grid";
             this.G8.UseVisualStyleBackColor = false;
             this.G8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2522,6 +2603,7 @@
             this.H8.Name = "H8";
             this.H8.Size = new System.Drawing.Size(38, 32);
             this.H8.TabIndex = 133;
+            this.H8.Tag = "grid";
             this.H8.UseVisualStyleBackColor = false;
             this.H8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2535,6 +2617,7 @@
             this.I1.Name = "I1";
             this.I1.Size = new System.Drawing.Size(38, 32);
             this.I1.TabIndex = 134;
+            this.I1.Tag = "grid";
             this.I1.UseVisualStyleBackColor = false;
             this.I1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2548,6 +2631,7 @@
             this.J1.Name = "J1";
             this.J1.Size = new System.Drawing.Size(38, 32);
             this.J1.TabIndex = 135;
+            this.J1.Tag = "grid";
             this.J1.UseVisualStyleBackColor = false;
             this.J1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2561,6 +2645,7 @@
             this.K1.Name = "K1";
             this.K1.Size = new System.Drawing.Size(38, 32);
             this.K1.TabIndex = 136;
+            this.K1.Tag = "grid";
             this.K1.UseVisualStyleBackColor = false;
             this.K1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2574,6 +2659,7 @@
             this.L1.Name = "L1";
             this.L1.Size = new System.Drawing.Size(38, 32);
             this.L1.TabIndex = 137;
+            this.L1.Tag = "grid";
             this.L1.UseVisualStyleBackColor = false;
             this.L1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2587,6 +2673,7 @@
             this.M1.Name = "M1";
             this.M1.Size = new System.Drawing.Size(38, 32);
             this.M1.TabIndex = 138;
+            this.M1.Tag = "grid";
             this.M1.UseVisualStyleBackColor = false;
             this.M1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2600,6 +2687,7 @@
             this.N1.Name = "N1";
             this.N1.Size = new System.Drawing.Size(38, 32);
             this.N1.TabIndex = 139;
+            this.N1.Tag = "grid";
             this.N1.UseVisualStyleBackColor = false;
             this.N1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2613,6 +2701,7 @@
             this.O1.Name = "O1";
             this.O1.Size = new System.Drawing.Size(38, 32);
             this.O1.TabIndex = 140;
+            this.O1.Tag = "grid";
             this.O1.UseVisualStyleBackColor = false;
             this.O1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2626,6 +2715,7 @@
             this.P1.Name = "P1";
             this.P1.Size = new System.Drawing.Size(38, 32);
             this.P1.TabIndex = 141;
+            this.P1.Tag = "grid";
             this.P1.UseVisualStyleBackColor = false;
             this.P1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2639,6 +2729,7 @@
             this.Q1.Name = "Q1";
             this.Q1.Size = new System.Drawing.Size(38, 32);
             this.Q1.TabIndex = 142;
+            this.Q1.Tag = "grid";
             this.Q1.UseVisualStyleBackColor = false;
             this.Q1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2652,6 +2743,7 @@
             this.R1.Name = "R1";
             this.R1.Size = new System.Drawing.Size(38, 32);
             this.R1.TabIndex = 143;
+            this.R1.Tag = "grid";
             this.R1.UseVisualStyleBackColor = false;
             this.R1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2665,6 +2757,7 @@
             this.S1.Name = "S1";
             this.S1.Size = new System.Drawing.Size(38, 32);
             this.S1.TabIndex = 144;
+            this.S1.Tag = "grid";
             this.S1.UseVisualStyleBackColor = false;
             this.S1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2678,6 +2771,7 @@
             this.T1.Name = "T1";
             this.T1.Size = new System.Drawing.Size(40, 32);
             this.T1.TabIndex = 145;
+            this.T1.Tag = "grid";
             this.T1.UseVisualStyleBackColor = false;
             this.T1.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2691,6 +2785,7 @@
             this.J2.Name = "J2";
             this.J2.Size = new System.Drawing.Size(38, 32);
             this.J2.TabIndex = 146;
+            this.J2.Tag = "grid";
             this.J2.UseVisualStyleBackColor = false;
             this.J2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2704,6 +2799,7 @@
             this.I2.Name = "I2";
             this.I2.Size = new System.Drawing.Size(38, 32);
             this.I2.TabIndex = 147;
+            this.I2.Tag = "grid";
             this.I2.UseVisualStyleBackColor = false;
             this.I2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2717,6 +2813,7 @@
             this.K2.Name = "K2";
             this.K2.Size = new System.Drawing.Size(38, 32);
             this.K2.TabIndex = 148;
+            this.K2.Tag = "grid";
             this.K2.UseVisualStyleBackColor = false;
             this.K2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2730,6 +2827,7 @@
             this.I3.Name = "I3";
             this.I3.Size = new System.Drawing.Size(38, 32);
             this.I3.TabIndex = 149;
+            this.I3.Tag = "grid";
             this.I3.UseVisualStyleBackColor = false;
             this.I3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2743,6 +2841,7 @@
             this.J3.Name = "J3";
             this.J3.Size = new System.Drawing.Size(38, 32);
             this.J3.TabIndex = 150;
+            this.J3.Tag = "grid";
             this.J3.UseVisualStyleBackColor = false;
             this.J3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2756,6 +2855,7 @@
             this.K3.Name = "K3";
             this.K3.Size = new System.Drawing.Size(38, 32);
             this.K3.TabIndex = 151;
+            this.K3.Tag = "grid";
             this.K3.UseVisualStyleBackColor = false;
             this.K3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2769,6 +2869,7 @@
             this.L2.Name = "L2";
             this.L2.Size = new System.Drawing.Size(38, 32);
             this.L2.TabIndex = 152;
+            this.L2.Tag = "grid";
             this.L2.UseVisualStyleBackColor = false;
             this.L2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2782,6 +2883,7 @@
             this.L3.Name = "L3";
             this.L3.Size = new System.Drawing.Size(38, 32);
             this.L3.TabIndex = 153;
+            this.L3.Tag = "grid";
             this.L3.UseVisualStyleBackColor = false;
             this.L3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2795,6 +2897,7 @@
             this.I4.Name = "I4";
             this.I4.Size = new System.Drawing.Size(38, 32);
             this.I4.TabIndex = 154;
+            this.I4.Tag = "grid";
             this.I4.UseVisualStyleBackColor = false;
             this.I4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2808,6 +2911,7 @@
             this.J4.Name = "J4";
             this.J4.Size = new System.Drawing.Size(38, 32);
             this.J4.TabIndex = 155;
+            this.J4.Tag = "grid";
             this.J4.UseVisualStyleBackColor = false;
             this.J4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2821,6 +2925,7 @@
             this.I5.Name = "I5";
             this.I5.Size = new System.Drawing.Size(38, 32);
             this.I5.TabIndex = 156;
+            this.I5.Tag = "grid";
             this.I5.UseVisualStyleBackColor = false;
             this.I5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2834,6 +2939,7 @@
             this.J5.Name = "J5";
             this.J5.Size = new System.Drawing.Size(38, 32);
             this.J5.TabIndex = 157;
+            this.J5.Tag = "grid";
             this.J5.UseVisualStyleBackColor = false;
             this.J5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2847,6 +2953,7 @@
             this.K4.Name = "K4";
             this.K4.Size = new System.Drawing.Size(38, 32);
             this.K4.TabIndex = 158;
+            this.K4.Tag = "grid";
             this.K4.UseVisualStyleBackColor = false;
             this.K4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2860,6 +2967,7 @@
             this.K5.Name = "K5";
             this.K5.Size = new System.Drawing.Size(38, 32);
             this.K5.TabIndex = 159;
+            this.K5.Tag = "grid";
             this.K5.UseVisualStyleBackColor = false;
             this.K5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2873,6 +2981,7 @@
             this.L5.Name = "L5";
             this.L5.Size = new System.Drawing.Size(38, 32);
             this.L5.TabIndex = 160;
+            this.L5.Tag = "grid";
             this.L5.UseVisualStyleBackColor = false;
             this.L5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2886,6 +2995,7 @@
             this.L4.Name = "L4";
             this.L4.Size = new System.Drawing.Size(38, 32);
             this.L4.TabIndex = 161;
+            this.L4.Tag = "grid";
             this.L4.UseVisualStyleBackColor = false;
             this.L4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2899,6 +3009,7 @@
             this.F9.Name = "F9";
             this.F9.Size = new System.Drawing.Size(38, 32);
             this.F9.TabIndex = 162;
+            this.F9.Tag = "grid";
             this.F9.UseVisualStyleBackColor = false;
             this.F9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2912,6 +3023,7 @@
             this.G9.Name = "G9";
             this.G9.Size = new System.Drawing.Size(38, 32);
             this.G9.TabIndex = 163;
+            this.G9.Tag = "grid";
             this.G9.UseVisualStyleBackColor = false;
             this.G9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2925,6 +3037,7 @@
             this.I6.Name = "I6";
             this.I6.Size = new System.Drawing.Size(38, 32);
             this.I6.TabIndex = 164;
+            this.I6.Tag = "grid";
             this.I6.UseVisualStyleBackColor = false;
             this.I6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2938,6 +3051,7 @@
             this.J6.Name = "J6";
             this.J6.Size = new System.Drawing.Size(38, 32);
             this.J6.TabIndex = 165;
+            this.J6.Tag = "grid";
             this.J6.UseVisualStyleBackColor = false;
             this.J6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2951,6 +3065,7 @@
             this.K6.Name = "K6";
             this.K6.Size = new System.Drawing.Size(38, 32);
             this.K6.TabIndex = 166;
+            this.K6.Tag = "grid";
             this.K6.UseVisualStyleBackColor = false;
             this.K6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2964,6 +3079,7 @@
             this.L6.Name = "L6";
             this.L6.Size = new System.Drawing.Size(38, 32);
             this.L6.TabIndex = 167;
+            this.L6.Tag = "grid";
             this.L6.UseVisualStyleBackColor = false;
             this.L6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2977,6 +3093,7 @@
             this.I7.Name = "I7";
             this.I7.Size = new System.Drawing.Size(38, 32);
             this.I7.TabIndex = 168;
+            this.I7.Tag = "grid";
             this.I7.UseVisualStyleBackColor = false;
             this.I7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -2990,6 +3107,7 @@
             this.J7.Name = "J7";
             this.J7.Size = new System.Drawing.Size(38, 32);
             this.J7.TabIndex = 169;
+            this.J7.Tag = "grid";
             this.J7.UseVisualStyleBackColor = false;
             this.J7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3003,6 +3121,7 @@
             this.K7.Name = "K7";
             this.K7.Size = new System.Drawing.Size(38, 32);
             this.K7.TabIndex = 170;
+            this.K7.Tag = "grid";
             this.K7.UseVisualStyleBackColor = false;
             this.K7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3016,6 +3135,7 @@
             this.L7.Name = "L7";
             this.L7.Size = new System.Drawing.Size(38, 32);
             this.L7.TabIndex = 171;
+            this.L7.Tag = "grid";
             this.L7.UseVisualStyleBackColor = false;
             this.L7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3029,6 +3149,7 @@
             this.I8.Name = "I8";
             this.I8.Size = new System.Drawing.Size(38, 32);
             this.I8.TabIndex = 172;
+            this.I8.Tag = "grid";
             this.I8.UseVisualStyleBackColor = false;
             this.I8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3042,6 +3163,7 @@
             this.J8.Name = "J8";
             this.J8.Size = new System.Drawing.Size(38, 32);
             this.J8.TabIndex = 173;
+            this.J8.Tag = "grid";
             this.J8.UseVisualStyleBackColor = false;
             this.J8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3055,6 +3177,7 @@
             this.B15.Name = "B15";
             this.B15.Size = new System.Drawing.Size(38, 32);
             this.B15.TabIndex = 174;
+            this.B15.Tag = "grid";
             this.B15.UseVisualStyleBackColor = false;
             this.B15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3068,6 +3191,7 @@
             this.F10.Name = "F10";
             this.F10.Size = new System.Drawing.Size(38, 32);
             this.F10.TabIndex = 179;
+            this.F10.Tag = "grid";
             this.F10.UseVisualStyleBackColor = false;
             this.F10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3081,6 +3205,7 @@
             this.G10.Name = "G10";
             this.G10.Size = new System.Drawing.Size(38, 32);
             this.G10.TabIndex = 185;
+            this.G10.Tag = "grid";
             this.G10.UseVisualStyleBackColor = false;
             this.G10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3094,6 +3219,7 @@
             this.H9.Name = "H9";
             this.H9.Size = new System.Drawing.Size(38, 32);
             this.H9.TabIndex = 191;
+            this.H9.Tag = "grid";
             this.H9.UseVisualStyleBackColor = false;
             this.H9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3107,6 +3233,7 @@
             this.H10.Name = "H10";
             this.H10.Size = new System.Drawing.Size(38, 32);
             this.H10.TabIndex = 192;
+            this.H10.Tag = "grid";
             this.H10.UseVisualStyleBackColor = false;
             this.H10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3120,6 +3247,7 @@
             this.H11.Name = "H11";
             this.H11.Size = new System.Drawing.Size(38, 32);
             this.H11.TabIndex = 193;
+            this.H11.Tag = "grid";
             this.H11.UseVisualStyleBackColor = false;
             this.H11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3133,6 +3261,7 @@
             this.I9.Name = "I9";
             this.I9.Size = new System.Drawing.Size(38, 32);
             this.I9.TabIndex = 198;
+            this.I9.Tag = "grid";
             this.I9.UseVisualStyleBackColor = false;
             this.I9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3146,6 +3275,7 @@
             this.J9.Name = "J9";
             this.J9.Size = new System.Drawing.Size(38, 32);
             this.J9.TabIndex = 199;
+            this.J9.Tag = "grid";
             this.J9.UseVisualStyleBackColor = false;
             this.J9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3159,6 +3289,7 @@
             this.K8.Name = "K8";
             this.K8.Size = new System.Drawing.Size(38, 32);
             this.K8.TabIndex = 200;
+            this.K8.Tag = "grid";
             this.K8.UseVisualStyleBackColor = false;
             this.K8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3172,6 +3303,7 @@
             this.K9.Name = "K9";
             this.K9.Size = new System.Drawing.Size(38, 32);
             this.K9.TabIndex = 201;
+            this.K9.Tag = "grid";
             this.K9.UseVisualStyleBackColor = false;
             this.K9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3185,6 +3317,7 @@
             this.L9.Name = "L9";
             this.L9.Size = new System.Drawing.Size(38, 32);
             this.L9.TabIndex = 202;
+            this.L9.Tag = "grid";
             this.L9.UseVisualStyleBackColor = false;
             this.L9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3198,6 +3331,7 @@
             this.L8.Name = "L8";
             this.L8.Size = new System.Drawing.Size(38, 32);
             this.L8.TabIndex = 203;
+            this.L8.Tag = "grid";
             this.L8.UseVisualStyleBackColor = false;
             this.L8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3211,6 +3345,7 @@
             this.I10.Name = "I10";
             this.I10.Size = new System.Drawing.Size(38, 32);
             this.I10.TabIndex = 204;
+            this.I10.Tag = "grid";
             this.I10.UseVisualStyleBackColor = false;
             this.I10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3224,6 +3359,7 @@
             this.J10.Name = "J10";
             this.J10.Size = new System.Drawing.Size(38, 32);
             this.J10.TabIndex = 205;
+            this.J10.Tag = "grid";
             this.J10.UseVisualStyleBackColor = false;
             this.J10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3237,6 +3373,7 @@
             this.K10.Name = "K10";
             this.K10.Size = new System.Drawing.Size(38, 32);
             this.K10.TabIndex = 206;
+            this.K10.Tag = "grid";
             this.K10.UseVisualStyleBackColor = false;
             this.K10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3250,6 +3387,7 @@
             this.L10.Name = "L10";
             this.L10.Size = new System.Drawing.Size(38, 32);
             this.L10.TabIndex = 207;
+            this.L10.Tag = "grid";
             this.L10.UseVisualStyleBackColor = false;
             this.L10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3263,6 +3401,7 @@
             this.I11.Name = "I11";
             this.I11.Size = new System.Drawing.Size(38, 32);
             this.I11.TabIndex = 208;
+            this.I11.Tag = "grid";
             this.I11.UseVisualStyleBackColor = false;
             this.I11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3276,6 +3415,7 @@
             this.J11.Name = "J11";
             this.J11.Size = new System.Drawing.Size(38, 32);
             this.J11.TabIndex = 209;
+            this.J11.Tag = "grid";
             this.J11.UseVisualStyleBackColor = false;
             this.J11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3289,6 +3429,7 @@
             this.K11.Name = "K11";
             this.K11.Size = new System.Drawing.Size(38, 32);
             this.K11.TabIndex = 210;
+            this.K11.Tag = "grid";
             this.K11.UseVisualStyleBackColor = false;
             this.K11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3302,6 +3443,7 @@
             this.L11.Name = "L11";
             this.L11.Size = new System.Drawing.Size(38, 32);
             this.L11.TabIndex = 211;
+            this.L11.Tag = "grid";
             this.L11.UseVisualStyleBackColor = false;
             this.L11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3315,6 +3457,7 @@
             this.M2.Name = "M2";
             this.M2.Size = new System.Drawing.Size(38, 32);
             this.M2.TabIndex = 227;
+            this.M2.Tag = "grid";
             this.M2.UseVisualStyleBackColor = false;
             this.M2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3328,6 +3471,7 @@
             this.M3.Name = "M3";
             this.M3.Size = new System.Drawing.Size(38, 32);
             this.M3.TabIndex = 228;
+            this.M3.Tag = "grid";
             this.M3.UseVisualStyleBackColor = false;
             this.M3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3341,6 +3485,7 @@
             this.M4.Name = "M4";
             this.M4.Size = new System.Drawing.Size(38, 32);
             this.M4.TabIndex = 229;
+            this.M4.Tag = "grid";
             this.M4.UseVisualStyleBackColor = false;
             this.M4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3354,6 +3499,7 @@
             this.M5.Name = "M5";
             this.M5.Size = new System.Drawing.Size(38, 32);
             this.M5.TabIndex = 230;
+            this.M5.Tag = "grid";
             this.M5.UseVisualStyleBackColor = false;
             this.M5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3367,6 +3513,7 @@
             this.M6.Name = "M6";
             this.M6.Size = new System.Drawing.Size(38, 32);
             this.M6.TabIndex = 231;
+            this.M6.Tag = "grid";
             this.M6.UseVisualStyleBackColor = false;
             this.M6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3380,6 +3527,7 @@
             this.M7.Name = "M7";
             this.M7.Size = new System.Drawing.Size(38, 32);
             this.M7.TabIndex = 232;
+            this.M7.Tag = "grid";
             this.M7.UseVisualStyleBackColor = false;
             this.M7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3393,6 +3541,7 @@
             this.M8.Name = "M8";
             this.M8.Size = new System.Drawing.Size(38, 32);
             this.M8.TabIndex = 233;
+            this.M8.Tag = "grid";
             this.M8.UseVisualStyleBackColor = false;
             this.M8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3406,6 +3555,7 @@
             this.M9.Name = "M9";
             this.M9.Size = new System.Drawing.Size(38, 32);
             this.M9.TabIndex = 234;
+            this.M9.Tag = "grid";
             this.M9.UseVisualStyleBackColor = false;
             this.M9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3419,6 +3569,7 @@
             this.M10.Name = "M10";
             this.M10.Size = new System.Drawing.Size(38, 32);
             this.M10.TabIndex = 235;
+            this.M10.Tag = "grid";
             this.M10.UseVisualStyleBackColor = false;
             this.M10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3432,6 +3583,7 @@
             this.M11.Name = "M11";
             this.M11.Size = new System.Drawing.Size(38, 32);
             this.M11.TabIndex = 236;
+            this.M11.Tag = "grid";
             this.M11.UseVisualStyleBackColor = false;
             this.M11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3445,6 +3597,7 @@
             this.N2.Name = "N2";
             this.N2.Size = new System.Drawing.Size(38, 32);
             this.N2.TabIndex = 241;
+            this.N2.Tag = "grid";
             this.N2.UseVisualStyleBackColor = false;
             this.N2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3458,6 +3611,7 @@
             this.N3.Name = "N3";
             this.N3.Size = new System.Drawing.Size(38, 32);
             this.N3.TabIndex = 242;
+            this.N3.Tag = "grid";
             this.N3.UseVisualStyleBackColor = false;
             this.N3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3471,6 +3625,7 @@
             this.N4.Name = "N4";
             this.N4.Size = new System.Drawing.Size(38, 32);
             this.N4.TabIndex = 243;
+            this.N4.Tag = "grid";
             this.N4.UseVisualStyleBackColor = false;
             this.N4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3484,6 +3639,7 @@
             this.N5.Name = "N5";
             this.N5.Size = new System.Drawing.Size(38, 32);
             this.N5.TabIndex = 244;
+            this.N5.Tag = "grid";
             this.N5.UseVisualStyleBackColor = false;
             this.N5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3497,6 +3653,7 @@
             this.N6.Name = "N6";
             this.N6.Size = new System.Drawing.Size(38, 32);
             this.N6.TabIndex = 245;
+            this.N6.Tag = "grid";
             this.N6.UseVisualStyleBackColor = false;
             this.N6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3510,6 +3667,7 @@
             this.N7.Name = "N7";
             this.N7.Size = new System.Drawing.Size(38, 32);
             this.N7.TabIndex = 246;
+            this.N7.Tag = "grid";
             this.N7.UseVisualStyleBackColor = false;
             this.N7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3523,6 +3681,7 @@
             this.N8.Name = "N8";
             this.N8.Size = new System.Drawing.Size(38, 32);
             this.N8.TabIndex = 247;
+            this.N8.Tag = "grid";
             this.N8.UseVisualStyleBackColor = false;
             this.N8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3536,6 +3695,7 @@
             this.N9.Name = "N9";
             this.N9.Size = new System.Drawing.Size(38, 32);
             this.N9.TabIndex = 248;
+            this.N9.Tag = "grid";
             this.N9.UseVisualStyleBackColor = false;
             this.N9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3549,6 +3709,7 @@
             this.N10.Name = "N10";
             this.N10.Size = new System.Drawing.Size(38, 32);
             this.N10.TabIndex = 249;
+            this.N10.Tag = "grid";
             this.N10.UseVisualStyleBackColor = false;
             this.N10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3562,6 +3723,7 @@
             this.N11.Name = "N11";
             this.N11.Size = new System.Drawing.Size(38, 32);
             this.N11.TabIndex = 251;
+            this.N11.Tag = "grid";
             this.N11.UseVisualStyleBackColor = false;
             this.N11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3575,6 +3737,7 @@
             this.O2.Name = "O2";
             this.O2.Size = new System.Drawing.Size(38, 32);
             this.O2.TabIndex = 255;
+            this.O2.Tag = "grid";
             this.O2.UseVisualStyleBackColor = false;
             this.O2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3588,6 +3751,7 @@
             this.O3.Name = "O3";
             this.O3.Size = new System.Drawing.Size(38, 32);
             this.O3.TabIndex = 256;
+            this.O3.Tag = "grid";
             this.O3.UseVisualStyleBackColor = false;
             this.O3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3601,6 +3765,7 @@
             this.P2.Name = "P2";
             this.P2.Size = new System.Drawing.Size(38, 32);
             this.P2.TabIndex = 257;
+            this.P2.Tag = "grid";
             this.P2.UseVisualStyleBackColor = false;
             this.P2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3614,6 +3779,7 @@
             this.P3.Name = "P3";
             this.P3.Size = new System.Drawing.Size(38, 32);
             this.P3.TabIndex = 258;
+            this.P3.Tag = "grid";
             this.P3.UseVisualStyleBackColor = false;
             this.P3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3627,6 +3793,7 @@
             this.P4.Name = "P4";
             this.P4.Size = new System.Drawing.Size(38, 32);
             this.P4.TabIndex = 259;
+            this.P4.Tag = "grid";
             this.P4.UseVisualStyleBackColor = false;
             this.P4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3640,6 +3807,7 @@
             this.O4.Name = "O4";
             this.O4.Size = new System.Drawing.Size(38, 32);
             this.O4.TabIndex = 260;
+            this.O4.Tag = "grid";
             this.O4.UseVisualStyleBackColor = false;
             this.O4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3653,6 +3821,7 @@
             this.O5.Name = "O5";
             this.O5.Size = new System.Drawing.Size(38, 32);
             this.O5.TabIndex = 261;
+            this.O5.Tag = "grid";
             this.O5.UseVisualStyleBackColor = false;
             this.O5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3666,6 +3835,7 @@
             this.P5.Name = "P5";
             this.P5.Size = new System.Drawing.Size(38, 32);
             this.P5.TabIndex = 262;
+            this.P5.Tag = "grid";
             this.P5.UseVisualStyleBackColor = false;
             this.P5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3679,6 +3849,7 @@
             this.Q2.Name = "Q2";
             this.Q2.Size = new System.Drawing.Size(38, 32);
             this.Q2.TabIndex = 263;
+            this.Q2.Tag = "grid";
             this.Q2.UseVisualStyleBackColor = false;
             this.Q2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3692,6 +3863,7 @@
             this.Q3.Name = "Q3";
             this.Q3.Size = new System.Drawing.Size(38, 32);
             this.Q3.TabIndex = 265;
+            this.Q3.Tag = "grid";
             this.Q3.UseVisualStyleBackColor = false;
             this.Q3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3705,6 +3877,7 @@
             this.P6.Name = "P6";
             this.P6.Size = new System.Drawing.Size(38, 32);
             this.P6.TabIndex = 267;
+            this.P6.Tag = "grid";
             this.P6.UseVisualStyleBackColor = false;
             this.P6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3718,6 +3891,7 @@
             this.O6.Name = "O6";
             this.O6.Size = new System.Drawing.Size(38, 32);
             this.O6.TabIndex = 268;
+            this.O6.Tag = "grid";
             this.O6.UseVisualStyleBackColor = false;
             this.O6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3731,6 +3905,7 @@
             this.Q4.Name = "Q4";
             this.Q4.Size = new System.Drawing.Size(38, 32);
             this.Q4.TabIndex = 269;
+            this.Q4.Tag = "grid";
             this.Q4.UseVisualStyleBackColor = false;
             this.Q4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3744,6 +3919,7 @@
             this.Q5.Name = "Q5";
             this.Q5.Size = new System.Drawing.Size(38, 32);
             this.Q5.TabIndex = 271;
+            this.Q5.Tag = "grid";
             this.Q5.UseVisualStyleBackColor = false;
             this.Q5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3757,6 +3933,7 @@
             this.P7.Name = "P7";
             this.P7.Size = new System.Drawing.Size(38, 32);
             this.P7.TabIndex = 273;
+            this.P7.Tag = "grid";
             this.P7.UseVisualStyleBackColor = false;
             this.P7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3770,6 +3947,7 @@
             this.O7.Name = "O7";
             this.O7.Size = new System.Drawing.Size(38, 32);
             this.O7.TabIndex = 274;
+            this.O7.Tag = "grid";
             this.O7.UseVisualStyleBackColor = false;
             this.O7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3783,6 +3961,7 @@
             this.O8.Name = "O8";
             this.O8.Size = new System.Drawing.Size(38, 32);
             this.O8.TabIndex = 275;
+            this.O8.Tag = "grid";
             this.O8.UseVisualStyleBackColor = false;
             this.O8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3796,6 +3975,7 @@
             this.S2.Name = "S2";
             this.S2.Size = new System.Drawing.Size(38, 32);
             this.S2.TabIndex = 277;
+            this.S2.Tag = "grid";
             this.S2.UseVisualStyleBackColor = false;
             this.S2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3809,6 +3989,7 @@
             this.S3.Name = "S3";
             this.S3.Size = new System.Drawing.Size(38, 32);
             this.S3.TabIndex = 278;
+            this.S3.Tag = "grid";
             this.S3.UseVisualStyleBackColor = false;
             this.S3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3822,6 +4003,7 @@
             this.Q6.Name = "Q6";
             this.Q6.Size = new System.Drawing.Size(38, 32);
             this.Q6.TabIndex = 289;
+            this.Q6.Tag = "grid";
             this.Q6.UseVisualStyleBackColor = false;
             this.Q6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3835,6 +4017,7 @@
             this.S4.Name = "S4";
             this.S4.Size = new System.Drawing.Size(38, 32);
             this.S4.TabIndex = 290;
+            this.S4.Tag = "grid";
             this.S4.UseVisualStyleBackColor = false;
             this.S4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3848,6 +4031,7 @@
             this.S5.Name = "S5";
             this.S5.Size = new System.Drawing.Size(38, 32);
             this.S5.TabIndex = 291;
+            this.S5.Tag = "grid";
             this.S5.UseVisualStyleBackColor = false;
             this.S5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3861,6 +4045,7 @@
             this.S6.Name = "S6";
             this.S6.Size = new System.Drawing.Size(38, 32);
             this.S6.TabIndex = 292;
+            this.S6.Tag = "grid";
             this.S6.UseVisualStyleBackColor = false;
             this.S6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3874,6 +4059,7 @@
             this.Q7.Name = "Q7";
             this.Q7.Size = new System.Drawing.Size(38, 32);
             this.Q7.TabIndex = 293;
+            this.Q7.Tag = "grid";
             this.Q7.UseVisualStyleBackColor = false;
             this.Q7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3887,6 +4073,7 @@
             this.P8.Name = "P8";
             this.P8.Size = new System.Drawing.Size(38, 32);
             this.P8.TabIndex = 295;
+            this.P8.Tag = "grid";
             this.P8.UseVisualStyleBackColor = false;
             this.P8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3900,6 +4087,7 @@
             this.Q8.Name = "Q8";
             this.Q8.Size = new System.Drawing.Size(38, 32);
             this.Q8.TabIndex = 296;
+            this.Q8.Tag = "grid";
             this.Q8.UseVisualStyleBackColor = false;
             this.Q8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3913,6 +4101,7 @@
             this.O9.Name = "O9";
             this.O9.Size = new System.Drawing.Size(38, 32);
             this.O9.TabIndex = 298;
+            this.O9.Tag = "grid";
             this.O9.UseVisualStyleBackColor = false;
             this.O9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3926,6 +4115,7 @@
             this.P9.Name = "P9";
             this.P9.Size = new System.Drawing.Size(38, 32);
             this.P9.TabIndex = 299;
+            this.P9.Tag = "grid";
             this.P9.UseVisualStyleBackColor = false;
             this.P9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3939,6 +4129,7 @@
             this.Q9.Name = "Q9";
             this.Q9.Size = new System.Drawing.Size(38, 32);
             this.Q9.TabIndex = 300;
+            this.Q9.Tag = "grid";
             this.Q9.UseVisualStyleBackColor = false;
             this.Q9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3952,6 +4143,7 @@
             this.S7.Name = "S7";
             this.S7.Size = new System.Drawing.Size(38, 32);
             this.S7.TabIndex = 302;
+            this.S7.Tag = "grid";
             this.S7.UseVisualStyleBackColor = false;
             this.S7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3965,6 +4157,7 @@
             this.S8.Name = "S8";
             this.S8.Size = new System.Drawing.Size(38, 32);
             this.S8.TabIndex = 297;
+            this.S8.Tag = "grid";
             this.S8.UseVisualStyleBackColor = false;
             this.S8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3978,6 +4171,7 @@
             this.S9.Name = "S9";
             this.S9.Size = new System.Drawing.Size(38, 32);
             this.S9.TabIndex = 304;
+            this.S9.Tag = "grid";
             this.S9.UseVisualStyleBackColor = false;
             this.S9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -3991,6 +4185,7 @@
             this.S10.Name = "S10";
             this.S10.Size = new System.Drawing.Size(38, 32);
             this.S10.TabIndex = 305;
+            this.S10.Tag = "grid";
             this.S10.UseVisualStyleBackColor = false;
             this.S10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4004,6 +4199,7 @@
             this.Q10.Name = "Q10";
             this.Q10.Size = new System.Drawing.Size(38, 32);
             this.Q10.TabIndex = 307;
+            this.Q10.Tag = "grid";
             this.Q10.UseVisualStyleBackColor = false;
             this.Q10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4017,6 +4213,7 @@
             this.P10.Name = "P10";
             this.P10.Size = new System.Drawing.Size(38, 32);
             this.P10.TabIndex = 308;
+            this.P10.Tag = "grid";
             this.P10.UseVisualStyleBackColor = false;
             this.P10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4030,6 +4227,7 @@
             this.O10.Name = "O10";
             this.O10.Size = new System.Drawing.Size(38, 32);
             this.O10.TabIndex = 309;
+            this.O10.Tag = "grid";
             this.O10.UseVisualStyleBackColor = false;
             this.O10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4043,6 +4241,7 @@
             this.O11.Name = "O11";
             this.O11.Size = new System.Drawing.Size(38, 32);
             this.O11.TabIndex = 311;
+            this.O11.Tag = "grid";
             this.O11.UseVisualStyleBackColor = false;
             this.O11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4056,6 +4255,7 @@
             this.P11.Name = "P11";
             this.P11.Size = new System.Drawing.Size(38, 32);
             this.P11.TabIndex = 313;
+            this.P11.Tag = "grid";
             this.P11.UseVisualStyleBackColor = false;
             this.P11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4069,6 +4269,7 @@
             this.Q11.Name = "Q11";
             this.Q11.Size = new System.Drawing.Size(38, 32);
             this.Q11.TabIndex = 314;
+            this.Q11.Tag = "grid";
             this.Q11.UseVisualStyleBackColor = false;
             this.Q11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4082,6 +4283,7 @@
             this.S11.Name = "S11";
             this.S11.Size = new System.Drawing.Size(38, 32);
             this.S11.TabIndex = 324;
+            this.S11.Tag = "grid";
             this.S11.UseVisualStyleBackColor = false;
             this.S11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4095,6 +4297,7 @@
             this.T2.Name = "T2";
             this.T2.Size = new System.Drawing.Size(40, 32);
             this.T2.TabIndex = 264;
+            this.T2.Tag = "grid";
             this.T2.UseVisualStyleBackColor = false;
             this.T2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4108,6 +4311,7 @@
             this.T3.Name = "T3";
             this.T3.Size = new System.Drawing.Size(40, 32);
             this.T3.TabIndex = 266;
+            this.T3.Tag = "grid";
             this.T3.UseVisualStyleBackColor = false;
             this.T3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4121,6 +4325,7 @@
             this.T4.Name = "T4";
             this.T4.Size = new System.Drawing.Size(40, 32);
             this.T4.TabIndex = 270;
+            this.T4.Tag = "grid";
             this.T4.UseVisualStyleBackColor = false;
             this.T4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4134,6 +4339,7 @@
             this.T5.Name = "T5";
             this.T5.Size = new System.Drawing.Size(40, 32);
             this.T5.TabIndex = 272;
+            this.T5.Tag = "grid";
             this.T5.UseVisualStyleBackColor = false;
             this.T5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4147,6 +4353,7 @@
             this.T6.Name = "T6";
             this.T6.Size = new System.Drawing.Size(40, 32);
             this.T6.TabIndex = 276;
+            this.T6.Tag = "grid";
             this.T6.UseVisualStyleBackColor = false;
             this.T6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4160,6 +4367,7 @@
             this.T7.Name = "T7";
             this.T7.Size = new System.Drawing.Size(40, 32);
             this.T7.TabIndex = 294;
+            this.T7.Tag = "grid";
             this.T7.UseVisualStyleBackColor = false;
             this.T7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4173,6 +4381,7 @@
             this.T8.Name = "T8";
             this.T8.Size = new System.Drawing.Size(40, 32);
             this.T8.TabIndex = 303;
+            this.T8.Tag = "grid";
             this.T8.UseVisualStyleBackColor = false;
             this.T8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4186,6 +4395,7 @@
             this.T9.Name = "T9";
             this.T9.Size = new System.Drawing.Size(40, 32);
             this.T9.TabIndex = 301;
+            this.T9.Tag = "grid";
             this.T9.UseVisualStyleBackColor = false;
             this.T9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4199,6 +4409,7 @@
             this.T10.Name = "T10";
             this.T10.Size = new System.Drawing.Size(40, 32);
             this.T10.TabIndex = 306;
+            this.T10.Tag = "grid";
             this.T10.UseVisualStyleBackColor = false;
             this.T10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4212,6 +4423,7 @@
             this.T11.Name = "T11";
             this.T11.Size = new System.Drawing.Size(40, 32);
             this.T11.TabIndex = 315;
+            this.T11.Tag = "grid";
             this.T11.UseVisualStyleBackColor = false;
             this.T11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4225,6 +4437,7 @@
             this.R2.Name = "R2";
             this.R2.Size = new System.Drawing.Size(38, 32);
             this.R2.TabIndex = 325;
+            this.R2.Tag = "grid";
             this.R2.UseVisualStyleBackColor = false;
             this.R2.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4238,6 +4451,7 @@
             this.R11.Name = "R11";
             this.R11.Size = new System.Drawing.Size(38, 32);
             this.R11.TabIndex = 330;
+            this.R11.Tag = "grid";
             this.R11.UseVisualStyleBackColor = false;
             this.R11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4251,6 +4465,7 @@
             this.R10.Name = "R10";
             this.R10.Size = new System.Drawing.Size(38, 32);
             this.R10.TabIndex = 331;
+            this.R10.Tag = "grid";
             this.R10.UseVisualStyleBackColor = false;
             this.R10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4264,6 +4479,7 @@
             this.R3.Name = "R3";
             this.R3.Size = new System.Drawing.Size(38, 32);
             this.R3.TabIndex = 332;
+            this.R3.Tag = "grid";
             this.R3.UseVisualStyleBackColor = false;
             this.R3.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4277,6 +4493,7 @@
             this.R4.Name = "R4";
             this.R4.Size = new System.Drawing.Size(38, 32);
             this.R4.TabIndex = 333;
+            this.R4.Tag = "grid";
             this.R4.UseVisualStyleBackColor = false;
             this.R4.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4290,6 +4507,7 @@
             this.R5.Name = "R5";
             this.R5.Size = new System.Drawing.Size(38, 32);
             this.R5.TabIndex = 334;
+            this.R5.Tag = "grid";
             this.R5.UseVisualStyleBackColor = false;
             this.R5.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4303,6 +4521,7 @@
             this.R6.Name = "R6";
             this.R6.Size = new System.Drawing.Size(38, 32);
             this.R6.TabIndex = 335;
+            this.R6.Tag = "grid";
             this.R6.UseVisualStyleBackColor = false;
             this.R6.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4316,6 +4535,7 @@
             this.R7.Name = "R7";
             this.R7.Size = new System.Drawing.Size(38, 32);
             this.R7.TabIndex = 336;
+            this.R7.Tag = "grid";
             this.R7.UseVisualStyleBackColor = false;
             this.R7.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4329,6 +4549,7 @@
             this.R8.Name = "R8";
             this.R8.Size = new System.Drawing.Size(38, 32);
             this.R8.TabIndex = 337;
+            this.R8.Tag = "grid";
             this.R8.UseVisualStyleBackColor = false;
             this.R8.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4342,6 +4563,7 @@
             this.R9.Name = "R9";
             this.R9.Size = new System.Drawing.Size(38, 32);
             this.R9.TabIndex = 338;
+            this.R9.Tag = "grid";
             this.R9.UseVisualStyleBackColor = false;
             this.R9.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4355,6 +4577,7 @@
             this.A18.Name = "A18";
             this.A18.Size = new System.Drawing.Size(38, 32);
             this.A18.TabIndex = 108;
+            this.A18.Tag = "grid";
             this.A18.UseVisualStyleBackColor = false;
             this.A18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4368,6 +4591,7 @@
             this.A19.Name = "A19";
             this.A19.Size = new System.Drawing.Size(38, 32);
             this.A19.TabIndex = 190;
+            this.A19.Tag = "grid";
             this.A19.UseVisualStyleBackColor = false;
             this.A19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4381,6 +4605,7 @@
             this.A20.Name = "A20";
             this.A20.Size = new System.Drawing.Size(38, 33);
             this.A20.TabIndex = 105;
+            this.A20.Tag = "grid";
             this.A20.UseVisualStyleBackColor = false;
             this.A20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4394,6 +4619,7 @@
             this.B20.Name = "B20";
             this.B20.Size = new System.Drawing.Size(38, 33);
             this.B20.TabIndex = 97;
+            this.B20.Tag = "grid";
             this.B20.UseVisualStyleBackColor = false;
             this.B20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4407,6 +4633,7 @@
             this.B19.Name = "B19";
             this.B19.Size = new System.Drawing.Size(38, 32);
             this.B19.TabIndex = 101;
+            this.B19.Tag = "grid";
             this.B19.UseVisualStyleBackColor = false;
             this.B19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4420,6 +4647,7 @@
             this.B18.Name = "B18";
             this.B18.Size = new System.Drawing.Size(38, 32);
             this.B18.TabIndex = 109;
+            this.B18.Tag = "grid";
             this.B18.UseVisualStyleBackColor = false;
             this.B18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4433,6 +4661,7 @@
             this.B17.Name = "B17";
             this.B17.Size = new System.Drawing.Size(38, 32);
             this.B17.TabIndex = 175;
+            this.B17.Tag = "grid";
             this.B17.UseVisualStyleBackColor = false;
             this.B17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4446,6 +4675,7 @@
             this.B16.Name = "B16";
             this.B16.Size = new System.Drawing.Size(38, 32);
             this.B16.TabIndex = 176;
+            this.B16.Tag = "grid";
             this.B16.UseVisualStyleBackColor = false;
             this.B16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4459,6 +4689,7 @@
             this.C13.Name = "C13";
             this.C13.Size = new System.Drawing.Size(38, 32);
             this.C13.TabIndex = 56;
+            this.C13.Tag = "grid";
             this.C13.UseVisualStyleBackColor = false;
             this.C13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4472,6 +4703,7 @@
             this.C20.Name = "C20";
             this.C20.Size = new System.Drawing.Size(38, 33);
             this.C20.TabIndex = 219;
+            this.C20.Tag = "grid";
             this.C20.UseVisualStyleBackColor = false;
             this.C20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4485,6 +4717,7 @@
             this.C19.Name = "C19";
             this.C19.Size = new System.Drawing.Size(38, 32);
             this.C19.TabIndex = 177;
+            this.C19.Tag = "grid";
             this.C19.UseVisualStyleBackColor = false;
             this.C19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4498,6 +4731,7 @@
             this.C18.Name = "C18";
             this.C18.Size = new System.Drawing.Size(38, 32);
             this.C18.TabIndex = 183;
+            this.C18.Tag = "grid";
             this.C18.UseVisualStyleBackColor = false;
             this.C18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4511,6 +4745,7 @@
             this.D20.Name = "D20";
             this.D20.Size = new System.Drawing.Size(38, 33);
             this.D20.TabIndex = 196;
+            this.D20.Tag = "grid";
             this.D20.UseVisualStyleBackColor = false;
             this.D20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4524,6 +4759,7 @@
             this.D19.Name = "D19";
             this.D19.Size = new System.Drawing.Size(38, 32);
             this.D19.TabIndex = 189;
+            this.D19.Tag = "grid";
             this.D19.UseVisualStyleBackColor = false;
             this.D19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4537,6 +4773,7 @@
             this.D18.Name = "D18";
             this.D18.Size = new System.Drawing.Size(38, 32);
             this.D18.TabIndex = 188;
+            this.D18.Tag = "grid";
             this.D18.UseVisualStyleBackColor = false;
             this.D18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4550,6 +4787,7 @@
             this.E20.Name = "E20";
             this.E20.Size = new System.Drawing.Size(38, 33);
             this.E20.TabIndex = 182;
+            this.E20.Tag = "grid";
             this.E20.UseVisualStyleBackColor = false;
             this.E20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4563,6 +4801,7 @@
             this.E19.Name = "E19";
             this.E19.Size = new System.Drawing.Size(38, 32);
             this.E19.TabIndex = 106;
+            this.E19.Tag = "grid";
             this.E19.UseVisualStyleBackColor = false;
             this.E19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4576,6 +4815,7 @@
             this.E18.Name = "E18";
             this.E18.Size = new System.Drawing.Size(38, 32);
             this.E18.TabIndex = 103;
+            this.E18.Tag = "grid";
             this.E18.UseVisualStyleBackColor = false;
             this.E18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4589,6 +4829,7 @@
             this.E17.Name = "E17";
             this.E17.Size = new System.Drawing.Size(38, 32);
             this.E17.TabIndex = 181;
+            this.E17.Tag = "grid";
             this.E17.UseVisualStyleBackColor = false;
             this.E17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4602,6 +4843,7 @@
             this.E16.Name = "E16";
             this.E16.Size = new System.Drawing.Size(38, 32);
             this.E16.TabIndex = 180;
+            this.E16.Tag = "grid";
             this.E16.UseVisualStyleBackColor = false;
             this.E16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4615,6 +4857,7 @@
             this.E15.Name = "E15";
             this.E15.Size = new System.Drawing.Size(38, 32);
             this.E15.TabIndex = 99;
+            this.E15.Tag = "grid";
             this.E15.UseVisualStyleBackColor = false;
             this.E15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4628,6 +4871,7 @@
             this.E14.Name = "E14";
             this.E14.Size = new System.Drawing.Size(38, 32);
             this.E14.TabIndex = 95;
+            this.E14.Tag = "grid";
             this.E14.UseVisualStyleBackColor = false;
             this.E14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4641,6 +4885,7 @@
             this.D14.Name = "D14";
             this.D14.Size = new System.Drawing.Size(38, 32);
             this.D14.TabIndex = 187;
+            this.D14.Tag = "grid";
             this.D14.UseVisualStyleBackColor = false;
             this.D14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4654,6 +4899,7 @@
             this.D15.Name = "D15";
             this.D15.Size = new System.Drawing.Size(38, 32);
             this.D15.TabIndex = 195;
+            this.D15.Tag = "grid";
             this.D15.UseVisualStyleBackColor = false;
             this.D15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4667,6 +4913,7 @@
             this.C14.Name = "C14";
             this.C14.Size = new System.Drawing.Size(38, 32);
             this.C14.TabIndex = 102;
+            this.C14.Tag = "grid";
             this.C14.UseVisualStyleBackColor = false;
             this.C14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4680,6 +4927,7 @@
             this.C15.Name = "C15";
             this.C15.Size = new System.Drawing.Size(38, 32);
             this.C15.TabIndex = 98;
+            this.C15.Tag = "grid";
             this.C15.UseVisualStyleBackColor = false;
             this.C15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4693,6 +4941,7 @@
             this.C16.Name = "C16";
             this.C16.Size = new System.Drawing.Size(38, 32);
             this.C16.TabIndex = 178;
+            this.C16.Tag = "grid";
             this.C16.UseVisualStyleBackColor = false;
             this.C16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4706,6 +4955,7 @@
             this.D16.Name = "D16";
             this.D16.Size = new System.Drawing.Size(38, 32);
             this.D16.TabIndex = 184;
+            this.D16.Tag = "grid";
             this.D16.UseVisualStyleBackColor = false;
             this.D16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4719,6 +4969,7 @@
             this.C17.Name = "C17";
             this.C17.Size = new System.Drawing.Size(38, 32);
             this.C17.TabIndex = 93;
+            this.C17.Tag = "grid";
             this.C17.UseVisualStyleBackColor = false;
             this.C17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4732,6 +4983,7 @@
             this.D17.Name = "D17";
             this.D17.Size = new System.Drawing.Size(38, 32);
             this.D17.TabIndex = 94;
+            this.D17.Tag = "grid";
             this.D17.UseVisualStyleBackColor = false;
             this.D17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4745,6 +4997,7 @@
             this.C10.Name = "C10";
             this.C10.Size = new System.Drawing.Size(38, 32);
             this.C10.TabIndex = 339;
+            this.C10.Tag = "grid";
             this.C10.UseVisualStyleBackColor = false;
             this.C10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4758,6 +5011,7 @@
             this.D10.Name = "D10";
             this.D10.Size = new System.Drawing.Size(38, 32);
             this.D10.TabIndex = 340;
+            this.D10.Tag = "grid";
             this.D10.UseVisualStyleBackColor = false;
             this.D10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4771,6 +5025,7 @@
             this.E10.Name = "E10";
             this.E10.Size = new System.Drawing.Size(38, 32);
             this.E10.TabIndex = 341;
+            this.E10.Tag = "grid";
             this.E10.UseVisualStyleBackColor = false;
             this.E10.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4784,6 +5039,7 @@
             this.C11.Name = "C11";
             this.C11.Size = new System.Drawing.Size(38, 32);
             this.C11.TabIndex = 342;
+            this.C11.Tag = "grid";
             this.C11.UseVisualStyleBackColor = false;
             this.C11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4797,6 +5053,7 @@
             this.C12.Name = "C12";
             this.C12.Size = new System.Drawing.Size(38, 32);
             this.C12.TabIndex = 343;
+            this.C12.Tag = "grid";
             this.C12.UseVisualStyleBackColor = false;
             this.C12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4810,6 +5067,7 @@
             this.D13.Name = "D13";
             this.D13.Size = new System.Drawing.Size(38, 32);
             this.D13.TabIndex = 344;
+            this.D13.Tag = "grid";
             this.D13.UseVisualStyleBackColor = false;
             this.D13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4823,6 +5081,7 @@
             this.T16.Name = "T16";
             this.T16.Size = new System.Drawing.Size(40, 32);
             this.T16.TabIndex = 347;
+            this.T16.Tag = "grid";
             this.T16.UseVisualStyleBackColor = false;
             this.T16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4836,6 +5095,7 @@
             this.S16.Name = "S16";
             this.S16.Size = new System.Drawing.Size(38, 32);
             this.S16.TabIndex = 348;
+            this.S16.Tag = "grid";
             this.S16.UseVisualStyleBackColor = false;
             this.S16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4849,6 +5109,7 @@
             this.R16.Name = "R16";
             this.R16.Size = new System.Drawing.Size(38, 32);
             this.R16.TabIndex = 349;
+            this.R16.Tag = "grid";
             this.R16.UseVisualStyleBackColor = false;
             this.R16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4862,6 +5123,7 @@
             this.Q16.Name = "Q16";
             this.Q16.Size = new System.Drawing.Size(38, 32);
             this.Q16.TabIndex = 350;
+            this.Q16.Tag = "grid";
             this.Q16.UseVisualStyleBackColor = false;
             this.Q16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4875,6 +5137,7 @@
             this.P16.Name = "P16";
             this.P16.Size = new System.Drawing.Size(38, 32);
             this.P16.TabIndex = 351;
+            this.P16.Tag = "grid";
             this.P16.UseVisualStyleBackColor = false;
             this.P16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4888,6 +5151,7 @@
             this.O16.Name = "O16";
             this.O16.Size = new System.Drawing.Size(38, 32);
             this.O16.TabIndex = 352;
+            this.O16.Tag = "grid";
             this.O16.UseVisualStyleBackColor = false;
             this.O16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4901,6 +5165,7 @@
             this.F11.Name = "F11";
             this.F11.Size = new System.Drawing.Size(38, 32);
             this.F11.TabIndex = 353;
+            this.F11.Tag = "grid";
             this.F11.UseVisualStyleBackColor = false;
             this.F11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4914,6 +5179,7 @@
             this.E11.Name = "E11";
             this.E11.Size = new System.Drawing.Size(38, 32);
             this.E11.TabIndex = 354;
+            this.E11.Tag = "grid";
             this.E11.UseVisualStyleBackColor = false;
             this.E11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4927,6 +5193,7 @@
             this.D11.Name = "D11";
             this.D11.Size = new System.Drawing.Size(38, 32);
             this.D11.TabIndex = 355;
+            this.D11.Tag = "grid";
             this.D11.UseVisualStyleBackColor = false;
             this.D11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4940,6 +5207,7 @@
             this.D12.Name = "D12";
             this.D12.Size = new System.Drawing.Size(38, 32);
             this.D12.TabIndex = 356;
+            this.D12.Tag = "grid";
             this.D12.UseVisualStyleBackColor = false;
             this.D12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4953,6 +5221,7 @@
             this.E12.Name = "E12";
             this.E12.Size = new System.Drawing.Size(38, 32);
             this.E12.TabIndex = 357;
+            this.E12.Tag = "grid";
             this.E12.UseVisualStyleBackColor = false;
             this.E12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4966,6 +5235,7 @@
             this.E13.Name = "E13";
             this.E13.Size = new System.Drawing.Size(38, 32);
             this.E13.TabIndex = 358;
+            this.E13.Tag = "grid";
             this.E13.UseVisualStyleBackColor = false;
             this.E13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4979,6 +5249,7 @@
             this.F12.Name = "F12";
             this.F12.Size = new System.Drawing.Size(38, 32);
             this.F12.TabIndex = 359;
+            this.F12.Tag = "grid";
             this.F12.UseVisualStyleBackColor = false;
             this.F12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -4992,6 +5263,7 @@
             this.J16.Name = "J16";
             this.J16.Size = new System.Drawing.Size(38, 32);
             this.J16.TabIndex = 372;
+            this.J16.Tag = "grid";
             this.J16.UseVisualStyleBackColor = false;
             this.J16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5005,6 +5277,7 @@
             this.K16.Name = "K16";
             this.K16.Size = new System.Drawing.Size(38, 32);
             this.K16.TabIndex = 373;
+            this.K16.Tag = "grid";
             this.K16.UseVisualStyleBackColor = false;
             this.K16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5018,6 +5291,7 @@
             this.L16.Name = "L16";
             this.L16.Size = new System.Drawing.Size(38, 32);
             this.L16.TabIndex = 374;
+            this.L16.Tag = "grid";
             this.L16.UseVisualStyleBackColor = false;
             this.L16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5031,6 +5305,7 @@
             this.M16.Name = "M16";
             this.M16.Size = new System.Drawing.Size(38, 32);
             this.M16.TabIndex = 375;
+            this.M16.Tag = "grid";
             this.M16.UseVisualStyleBackColor = false;
             this.M16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5044,6 +5319,7 @@
             this.N16.Name = "N16";
             this.N16.Size = new System.Drawing.Size(38, 32);
             this.N16.TabIndex = 376;
+            this.N16.Tag = "grid";
             this.N16.UseVisualStyleBackColor = false;
             this.N16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5057,6 +5333,7 @@
             this.F18.Name = "F18";
             this.F18.Size = new System.Drawing.Size(38, 32);
             this.F18.TabIndex = 346;
+            this.F18.Tag = "grid";
             this.F18.UseVisualStyleBackColor = false;
             this.F18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5070,6 +5347,7 @@
             this.F19.Name = "F19";
             this.F19.Size = new System.Drawing.Size(38, 32);
             this.F19.TabIndex = 345;
+            this.F19.Tag = "grid";
             this.F19.UseVisualStyleBackColor = false;
             this.F19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5083,6 +5361,7 @@
             this.F20.Name = "F20";
             this.F20.Size = new System.Drawing.Size(38, 33);
             this.F20.TabIndex = 368;
+            this.F20.Tag = "grid";
             this.F20.UseVisualStyleBackColor = false;
             this.F20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5096,6 +5375,7 @@
             this.F17.Name = "F17";
             this.F17.Size = new System.Drawing.Size(38, 32);
             this.F17.TabIndex = 367;
+            this.F17.Tag = "grid";
             this.F17.UseVisualStyleBackColor = false;
             this.F17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5109,6 +5389,7 @@
             this.F16.Name = "F16";
             this.F16.Size = new System.Drawing.Size(38, 32);
             this.F16.TabIndex = 361;
+            this.F16.Tag = "grid";
             this.F16.UseVisualStyleBackColor = false;
             this.F16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5122,6 +5403,7 @@
             this.G20.Name = "G20";
             this.G20.Size = new System.Drawing.Size(38, 33);
             this.G20.TabIndex = 369;
+            this.G20.Tag = "grid";
             this.G20.UseVisualStyleBackColor = false;
             this.G20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5135,6 +5417,7 @@
             this.G19.Name = "G19";
             this.G19.Size = new System.Drawing.Size(38, 32);
             this.G19.TabIndex = 366;
+            this.G19.Tag = "grid";
             this.G19.UseVisualStyleBackColor = false;
             this.G19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5148,6 +5431,7 @@
             this.G18.Name = "G18";
             this.G18.Size = new System.Drawing.Size(38, 32);
             this.G18.TabIndex = 360;
+            this.G18.Tag = "grid";
             this.G18.UseVisualStyleBackColor = false;
             this.G18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5161,6 +5445,7 @@
             this.G17.Name = "G17";
             this.G17.Size = new System.Drawing.Size(38, 32);
             this.G17.TabIndex = 362;
+            this.G17.Tag = "grid";
             this.G17.UseVisualStyleBackColor = false;
             this.G17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5174,6 +5459,7 @@
             this.G16.Name = "G16";
             this.G16.Size = new System.Drawing.Size(38, 32);
             this.G16.TabIndex = 186;
+            this.G16.Tag = "grid";
             this.G16.UseVisualStyleBackColor = false;
             this.G16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5187,6 +5473,7 @@
             this.H20.Name = "H20";
             this.H20.Size = new System.Drawing.Size(38, 33);
             this.H20.TabIndex = 370;
+            this.H20.Tag = "grid";
             this.H20.UseVisualStyleBackColor = false;
             this.H20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5200,6 +5487,7 @@
             this.H19.Name = "H19";
             this.H19.Size = new System.Drawing.Size(38, 32);
             this.H19.TabIndex = 197;
+            this.H19.Tag = "grid";
             this.H19.UseVisualStyleBackColor = false;
             this.H19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5213,6 +5501,7 @@
             this.H17.Name = "H17";
             this.H17.Size = new System.Drawing.Size(38, 32);
             this.H17.TabIndex = 363;
+            this.H17.Tag = "grid";
             this.H17.UseVisualStyleBackColor = false;
             this.H17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5226,6 +5515,7 @@
             this.H16.Name = "H16";
             this.H16.Size = new System.Drawing.Size(38, 32);
             this.H16.TabIndex = 365;
+            this.H16.Tag = "grid";
             this.H16.UseVisualStyleBackColor = false;
             this.H16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5239,6 +5529,7 @@
             this.H18.Name = "H18";
             this.H18.Size = new System.Drawing.Size(38, 32);
             this.H18.TabIndex = 194;
+            this.H18.Tag = "grid";
             this.H18.UseVisualStyleBackColor = false;
             this.H18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5252,6 +5543,7 @@
             this.I20.Name = "I20";
             this.I20.Size = new System.Drawing.Size(38, 33);
             this.I20.TabIndex = 371;
+            this.I20.Tag = "grid";
             this.I20.UseVisualStyleBackColor = false;
             this.I20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5265,6 +5557,7 @@
             this.I16.Name = "I16";
             this.I16.Size = new System.Drawing.Size(38, 32);
             this.I16.TabIndex = 223;
+            this.I16.Tag = "grid";
             this.I16.UseVisualStyleBackColor = false;
             this.I16.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5278,6 +5571,7 @@
             this.I17.Name = "I17";
             this.I17.Size = new System.Drawing.Size(38, 32);
             this.I17.TabIndex = 364;
+            this.I17.Tag = "grid";
             this.I17.UseVisualStyleBackColor = false;
             this.I17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5291,6 +5585,7 @@
             this.I18.Name = "I18";
             this.I18.Size = new System.Drawing.Size(38, 32);
             this.I18.TabIndex = 216;
+            this.I18.Tag = "grid";
             this.I18.UseVisualStyleBackColor = false;
             this.I18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5304,6 +5599,7 @@
             this.I19.Name = "I19";
             this.I19.Size = new System.Drawing.Size(38, 32);
             this.I19.TabIndex = 212;
+            this.I19.Tag = "grid";
             this.I19.UseVisualStyleBackColor = false;
             this.I19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5317,6 +5613,7 @@
             this.J17.Name = "J17";
             this.J17.Size = new System.Drawing.Size(38, 32);
             this.J17.TabIndex = 224;
+            this.J17.Tag = "grid";
             this.J17.UseVisualStyleBackColor = false;
             this.J17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5330,6 +5627,7 @@
             this.J18.Name = "J18";
             this.J18.Size = new System.Drawing.Size(38, 32);
             this.J18.TabIndex = 220;
+            this.J18.Tag = "grid";
             this.J18.UseVisualStyleBackColor = false;
             this.J18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5343,6 +5641,7 @@
             this.J19.Name = "J19";
             this.J19.Size = new System.Drawing.Size(38, 32);
             this.J19.TabIndex = 42;
+            this.J19.Tag = "grid";
             this.J19.UseVisualStyleBackColor = false;
             this.J19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5356,6 +5655,7 @@
             this.J20.Name = "J20";
             this.J20.Size = new System.Drawing.Size(38, 33);
             this.J20.TabIndex = 213;
+            this.J20.Tag = "grid";
             this.J20.UseVisualStyleBackColor = false;
             this.J20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5369,6 +5669,7 @@
             this.K17.Name = "K17";
             this.K17.Size = new System.Drawing.Size(38, 32);
             this.K17.TabIndex = 225;
+            this.K17.Tag = "grid";
             this.K17.UseVisualStyleBackColor = false;
             this.K17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5382,6 +5683,7 @@
             this.K18.Name = "K18";
             this.K18.Size = new System.Drawing.Size(38, 32);
             this.K18.TabIndex = 221;
+            this.K18.Tag = "grid";
             this.K18.UseVisualStyleBackColor = false;
             this.K18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5395,6 +5697,7 @@
             this.K19.Name = "K19";
             this.K19.Size = new System.Drawing.Size(38, 32);
             this.K19.TabIndex = 217;
+            this.K19.Tag = "grid";
             this.K19.UseVisualStyleBackColor = false;
             this.K19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5408,6 +5711,7 @@
             this.K20.Name = "K20";
             this.K20.Size = new System.Drawing.Size(38, 33);
             this.K20.TabIndex = 214;
+            this.K20.Tag = "grid";
             this.K20.UseVisualStyleBackColor = false;
             this.K20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5421,6 +5725,7 @@
             this.L17.Name = "L17";
             this.L17.Size = new System.Drawing.Size(38, 32);
             this.L17.TabIndex = 215;
+            this.L17.Tag = "grid";
             this.L17.UseVisualStyleBackColor = false;
             this.L17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5434,6 +5739,7 @@
             this.L18.Name = "L18";
             this.L18.Size = new System.Drawing.Size(38, 32);
             this.L18.TabIndex = 218;
+            this.L18.Tag = "grid";
             this.L18.UseVisualStyleBackColor = false;
             this.L18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5447,6 +5753,7 @@
             this.L19.Name = "L19";
             this.L19.Size = new System.Drawing.Size(38, 32);
             this.L19.TabIndex = 222;
+            this.L19.Tag = "grid";
             this.L19.UseVisualStyleBackColor = false;
             this.L19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5460,6 +5767,7 @@
             this.L20.Name = "L20";
             this.L20.Size = new System.Drawing.Size(38, 33);
             this.L20.TabIndex = 226;
+            this.L20.Tag = "grid";
             this.L20.UseVisualStyleBackColor = false;
             this.L20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5473,6 +5781,7 @@
             this.M17.Name = "M17";
             this.M17.Size = new System.Drawing.Size(38, 32);
             this.M17.TabIndex = 240;
+            this.M17.Tag = "grid";
             this.M17.UseVisualStyleBackColor = false;
             this.M17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5486,6 +5795,7 @@
             this.M18.Name = "M18";
             this.M18.Size = new System.Drawing.Size(38, 32);
             this.M18.TabIndex = 239;
+            this.M18.Tag = "grid";
             this.M18.UseVisualStyleBackColor = false;
             this.M18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5499,6 +5809,7 @@
             this.M19.Name = "M19";
             this.M19.Size = new System.Drawing.Size(38, 32);
             this.M19.TabIndex = 238;
+            this.M19.Tag = "grid";
             this.M19.UseVisualStyleBackColor = false;
             this.M19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5512,6 +5823,7 @@
             this.M20.Name = "M20";
             this.M20.Size = new System.Drawing.Size(38, 33);
             this.M20.TabIndex = 237;
+            this.M20.Tag = "grid";
             this.M20.UseVisualStyleBackColor = false;
             this.M20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5525,6 +5837,7 @@
             this.T20.Name = "T20";
             this.T20.Size = new System.Drawing.Size(40, 33);
             this.T20.TabIndex = 282;
+            this.T20.Tag = "grid";
             this.T20.UseVisualStyleBackColor = false;
             this.T20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5538,6 +5851,7 @@
             this.T19.Name = "T19";
             this.T19.Size = new System.Drawing.Size(40, 32);
             this.T19.TabIndex = 280;
+            this.T19.Tag = "grid";
             this.T19.UseVisualStyleBackColor = false;
             this.T19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5551,6 +5865,7 @@
             this.T17.Name = "T17";
             this.T17.Size = new System.Drawing.Size(40, 32);
             this.T17.TabIndex = 321;
+            this.T17.Tag = "grid";
             this.T17.UseVisualStyleBackColor = false;
             this.T17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5564,6 +5879,7 @@
             this.T18.Name = "T18";
             this.T18.Size = new System.Drawing.Size(40, 32);
             this.T18.TabIndex = 318;
+            this.T18.Tag = "grid";
             this.T18.UseVisualStyleBackColor = false;
             this.T18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5577,6 +5893,7 @@
             this.S17.Name = "S17";
             this.S17.Size = new System.Drawing.Size(38, 32);
             this.S17.TabIndex = 279;
+            this.S17.Tag = "grid";
             this.S17.UseVisualStyleBackColor = false;
             this.S17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5590,6 +5907,7 @@
             this.S18.Name = "S18";
             this.S18.Size = new System.Drawing.Size(38, 32);
             this.S18.TabIndex = 281;
+            this.S18.Tag = "grid";
             this.S18.UseVisualStyleBackColor = false;
             this.S18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5603,6 +5921,7 @@
             this.S19.Name = "S19";
             this.S19.Size = new System.Drawing.Size(38, 32);
             this.S19.TabIndex = 322;
+            this.S19.Tag = "grid";
             this.S19.UseVisualStyleBackColor = false;
             this.S19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5616,6 +5935,7 @@
             this.S20.Name = "S20";
             this.S20.Size = new System.Drawing.Size(38, 33);
             this.S20.TabIndex = 323;
+            this.S20.Tag = "grid";
             this.S20.UseVisualStyleBackColor = false;
             this.S20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5629,6 +5949,7 @@
             this.R19.Name = "R19";
             this.R19.Size = new System.Drawing.Size(38, 32);
             this.R19.TabIndex = 326;
+            this.R19.Tag = "grid";
             this.R19.UseVisualStyleBackColor = false;
             this.R19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5642,6 +5963,7 @@
             this.R18.Name = "R18";
             this.R18.Size = new System.Drawing.Size(38, 32);
             this.R18.TabIndex = 327;
+            this.R18.Tag = "grid";
             this.R18.UseVisualStyleBackColor = false;
             this.R18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5655,6 +5977,7 @@
             this.R17.Name = "R17";
             this.R17.Size = new System.Drawing.Size(38, 32);
             this.R17.TabIndex = 328;
+            this.R17.Tag = "grid";
             this.R17.UseVisualStyleBackColor = false;
             this.R17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5668,6 +5991,7 @@
             this.R20.Name = "R20";
             this.R20.Size = new System.Drawing.Size(38, 33);
             this.R20.TabIndex = 329;
+            this.R20.Tag = "grid";
             this.R20.UseVisualStyleBackColor = false;
             this.R20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5681,6 +6005,7 @@
             this.Q17.Name = "Q17";
             this.Q17.Size = new System.Drawing.Size(38, 32);
             this.Q17.TabIndex = 283;
+            this.Q17.Tag = "grid";
             this.Q17.UseVisualStyleBackColor = false;
             this.Q17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5694,6 +6019,7 @@
             this.Q18.Name = "Q18";
             this.Q18.Size = new System.Drawing.Size(38, 32);
             this.Q18.TabIndex = 288;
+            this.Q18.Tag = "grid";
             this.Q18.UseVisualStyleBackColor = false;
             this.Q18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5707,6 +6033,7 @@
             this.Q19.Name = "Q19";
             this.Q19.Size = new System.Drawing.Size(38, 32);
             this.Q19.TabIndex = 320;
+            this.Q19.Tag = "grid";
             this.Q19.UseVisualStyleBackColor = false;
             this.Q19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5720,6 +6047,7 @@
             this.Q20.Name = "Q20";
             this.Q20.Size = new System.Drawing.Size(38, 33);
             this.Q20.TabIndex = 317;
+            this.Q20.Tag = "grid";
             this.Q20.UseVisualStyleBackColor = false;
             this.Q20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5733,6 +6061,7 @@
             this.P17.Name = "P17";
             this.P17.Size = new System.Drawing.Size(38, 32);
             this.P17.TabIndex = 284;
+            this.P17.Tag = "grid";
             this.P17.UseVisualStyleBackColor = false;
             this.P17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5746,6 +6075,7 @@
             this.O17.Name = "O17";
             this.O17.Size = new System.Drawing.Size(38, 32);
             this.O17.TabIndex = 285;
+            this.O17.Tag = "grid";
             this.O17.UseVisualStyleBackColor = false;
             this.O17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5759,6 +6089,7 @@
             this.N17.Name = "N17";
             this.N17.Size = new System.Drawing.Size(38, 32);
             this.N17.TabIndex = 253;
+            this.N17.Tag = "grid";
             this.N17.UseVisualStyleBackColor = false;
             this.N17.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5772,6 +6103,7 @@
             this.O18.Name = "O18";
             this.O18.Size = new System.Drawing.Size(38, 32);
             this.O18.TabIndex = 286;
+            this.O18.Tag = "grid";
             this.O18.UseVisualStyleBackColor = false;
             this.O18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5785,6 +6117,7 @@
             this.N18.Name = "N18";
             this.N18.Size = new System.Drawing.Size(38, 32);
             this.N18.TabIndex = 254;
+            this.N18.Tag = "grid";
             this.N18.UseVisualStyleBackColor = false;
             this.N18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5798,6 +6131,7 @@
             this.P18.Name = "P18";
             this.P18.Size = new System.Drawing.Size(38, 32);
             this.P18.TabIndex = 287;
+            this.P18.Tag = "grid";
             this.P18.UseVisualStyleBackColor = false;
             this.P18.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5811,6 +6145,7 @@
             this.P19.Name = "P19";
             this.P19.Size = new System.Drawing.Size(38, 32);
             this.P19.TabIndex = 319;
+            this.P19.Tag = "grid";
             this.P19.UseVisualStyleBackColor = false;
             this.P19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5824,6 +6159,7 @@
             this.O19.Name = "O19";
             this.O19.Size = new System.Drawing.Size(38, 32);
             this.O19.TabIndex = 312;
+            this.O19.Tag = "grid";
             this.O19.UseVisualStyleBackColor = false;
             this.O19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5837,6 +6173,7 @@
             this.N19.Name = "N19";
             this.N19.Size = new System.Drawing.Size(38, 32);
             this.N19.TabIndex = 252;
+            this.N19.Tag = "grid";
             this.N19.UseVisualStyleBackColor = false;
             this.N19.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5850,6 +6187,7 @@
             this.O20.Name = "O20";
             this.O20.Size = new System.Drawing.Size(38, 33);
             this.O20.TabIndex = 310;
+            this.O20.Tag = "grid";
             this.O20.UseVisualStyleBackColor = false;
             this.O20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5863,6 +6201,7 @@
             this.P20.Name = "P20";
             this.P20.Size = new System.Drawing.Size(38, 33);
             this.P20.TabIndex = 316;
+            this.P20.Tag = "grid";
             this.P20.UseVisualStyleBackColor = false;
             this.P20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5876,6 +6215,7 @@
             this.N20.Name = "N20";
             this.N20.Size = new System.Drawing.Size(38, 33);
             this.N20.TabIndex = 250;
+            this.N20.Tag = "grid";
             this.N20.UseVisualStyleBackColor = false;
             this.N20.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5889,6 +6229,7 @@
             this.G11.Name = "G11";
             this.G11.Size = new System.Drawing.Size(38, 32);
             this.G11.TabIndex = 377;
+            this.G11.Tag = "grid";
             this.G11.UseVisualStyleBackColor = false;
             this.G11.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5902,6 +6243,7 @@
             this.T15.Name = "T15";
             this.T15.Size = new System.Drawing.Size(40, 32);
             this.T15.TabIndex = 378;
+            this.T15.Tag = "grid";
             this.T15.UseVisualStyleBackColor = false;
             this.T15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5915,6 +6257,7 @@
             this.T14.Name = "T14";
             this.T14.Size = new System.Drawing.Size(40, 32);
             this.T14.TabIndex = 379;
+            this.T14.Tag = "grid";
             this.T14.UseVisualStyleBackColor = false;
             this.T14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5928,6 +6271,7 @@
             this.T13.Name = "T13";
             this.T13.Size = new System.Drawing.Size(40, 32);
             this.T13.TabIndex = 380;
+            this.T13.Tag = "grid";
             this.T13.UseVisualStyleBackColor = false;
             this.T13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5941,6 +6285,7 @@
             this.T12.Name = "T12";
             this.T12.Size = new System.Drawing.Size(40, 32);
             this.T12.TabIndex = 381;
+            this.T12.Tag = "grid";
             this.T12.UseVisualStyleBackColor = false;
             this.T12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5954,6 +6299,7 @@
             this.H12.Name = "H12";
             this.H12.Size = new System.Drawing.Size(38, 32);
             this.H12.TabIndex = 382;
+            this.H12.Tag = "grid";
             this.H12.UseVisualStyleBackColor = false;
             this.H12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5967,6 +6313,7 @@
             this.H13.Name = "H13";
             this.H13.Size = new System.Drawing.Size(38, 32);
             this.H13.TabIndex = 383;
+            this.H13.Tag = "grid";
             this.H13.UseVisualStyleBackColor = false;
             this.H13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5980,6 +6327,7 @@
             this.H14.Name = "H14";
             this.H14.Size = new System.Drawing.Size(38, 32);
             this.H14.TabIndex = 384;
+            this.H14.Tag = "grid";
             this.H14.UseVisualStyleBackColor = false;
             this.H14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -5993,6 +6341,7 @@
             this.H15.Name = "H15";
             this.H15.Size = new System.Drawing.Size(38, 32);
             this.H15.TabIndex = 385;
+            this.H15.Tag = "grid";
             this.H15.UseVisualStyleBackColor = false;
             this.H15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6006,6 +6355,7 @@
             this.G12.Name = "G12";
             this.G12.Size = new System.Drawing.Size(38, 32);
             this.G12.TabIndex = 386;
+            this.G12.Tag = "grid";
             this.G12.UseVisualStyleBackColor = false;
             this.G12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6019,6 +6369,7 @@
             this.F13.Name = "F13";
             this.F13.Size = new System.Drawing.Size(38, 32);
             this.F13.TabIndex = 387;
+            this.F13.Tag = "grid";
             this.F13.UseVisualStyleBackColor = false;
             this.F13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6032,6 +6383,7 @@
             this.G15.Name = "G15";
             this.G15.Size = new System.Drawing.Size(38, 32);
             this.G15.TabIndex = 388;
+            this.G15.Tag = "grid";
             this.G15.UseVisualStyleBackColor = false;
             this.G15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6045,6 +6397,7 @@
             this.G14.Name = "G14";
             this.G14.Size = new System.Drawing.Size(38, 32);
             this.G14.TabIndex = 389;
+            this.G14.Tag = "grid";
             this.G14.UseVisualStyleBackColor = false;
             this.G14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6058,6 +6411,7 @@
             this.G13.Name = "G13";
             this.G13.Size = new System.Drawing.Size(38, 32);
             this.G13.TabIndex = 390;
+            this.G13.Tag = "grid";
             this.G13.UseVisualStyleBackColor = false;
             this.G13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6071,6 +6425,7 @@
             this.F14.Name = "F14";
             this.F14.Size = new System.Drawing.Size(38, 32);
             this.F14.TabIndex = 391;
+            this.F14.Tag = "grid";
             this.F14.UseVisualStyleBackColor = false;
             this.F14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6084,6 +6439,7 @@
             this.F15.Name = "F15";
             this.F15.Size = new System.Drawing.Size(38, 32);
             this.F15.TabIndex = 392;
+            this.F15.Tag = "grid";
             this.F15.UseVisualStyleBackColor = false;
             this.F15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6097,6 +6453,7 @@
             this.I12.Name = "I12";
             this.I12.Size = new System.Drawing.Size(38, 32);
             this.I12.TabIndex = 393;
+            this.I12.Tag = "grid";
             this.I12.UseVisualStyleBackColor = false;
             this.I12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6110,6 +6467,7 @@
             this.P12.Name = "P12";
             this.P12.Size = new System.Drawing.Size(38, 32);
             this.P12.TabIndex = 394;
+            this.P12.Tag = "grid";
             this.P12.UseVisualStyleBackColor = false;
             this.P12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6123,6 +6481,7 @@
             this.P13.Name = "P13";
             this.P13.Size = new System.Drawing.Size(38, 32);
             this.P13.TabIndex = 395;
+            this.P13.Tag = "grid";
             this.P13.UseVisualStyleBackColor = false;
             this.P13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6136,6 +6495,7 @@
             this.P14.Name = "P14";
             this.P14.Size = new System.Drawing.Size(38, 32);
             this.P14.TabIndex = 396;
+            this.P14.Tag = "grid";
             this.P14.UseVisualStyleBackColor = false;
             this.P14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6149,6 +6509,7 @@
             this.P15.Name = "P15";
             this.P15.Size = new System.Drawing.Size(38, 32);
             this.P15.TabIndex = 397;
+            this.P15.Tag = "grid";
             this.P15.UseVisualStyleBackColor = false;
             this.P15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6162,6 +6523,7 @@
             this.Q12.Name = "Q12";
             this.Q12.Size = new System.Drawing.Size(38, 32);
             this.Q12.TabIndex = 398;
+            this.Q12.Tag = "grid";
             this.Q12.UseVisualStyleBackColor = false;
             this.Q12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6175,6 +6537,7 @@
             this.R12.Name = "R12";
             this.R12.Size = new System.Drawing.Size(38, 32);
             this.R12.TabIndex = 399;
+            this.R12.Tag = "grid";
             this.R12.UseVisualStyleBackColor = false;
             this.R12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6188,6 +6551,7 @@
             this.S12.Name = "S12";
             this.S12.Size = new System.Drawing.Size(38, 32);
             this.S12.TabIndex = 400;
+            this.S12.Tag = "grid";
             this.S12.UseVisualStyleBackColor = false;
             this.S12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6201,6 +6565,7 @@
             this.Q13.Name = "Q13";
             this.Q13.Size = new System.Drawing.Size(38, 32);
             this.Q13.TabIndex = 401;
+            this.Q13.Tag = "grid";
             this.Q13.UseVisualStyleBackColor = false;
             this.Q13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6214,6 +6579,7 @@
             this.R13.Name = "R13";
             this.R13.Size = new System.Drawing.Size(38, 32);
             this.R13.TabIndex = 402;
+            this.R13.Tag = "grid";
             this.R13.UseVisualStyleBackColor = false;
             this.R13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6227,6 +6593,7 @@
             this.S13.Name = "S13";
             this.S13.Size = new System.Drawing.Size(38, 32);
             this.S13.TabIndex = 403;
+            this.S13.Tag = "grid";
             this.S13.UseVisualStyleBackColor = false;
             this.S13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6240,6 +6607,7 @@
             this.Q14.Name = "Q14";
             this.Q14.Size = new System.Drawing.Size(38, 32);
             this.Q14.TabIndex = 404;
+            this.Q14.Tag = "grid";
             this.Q14.UseVisualStyleBackColor = false;
             this.Q14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6253,6 +6621,7 @@
             this.R14.Name = "R14";
             this.R14.Size = new System.Drawing.Size(38, 32);
             this.R14.TabIndex = 405;
+            this.R14.Tag = "grid";
             this.R14.UseVisualStyleBackColor = false;
             this.R14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6266,6 +6635,7 @@
             this.S14.Name = "S14";
             this.S14.Size = new System.Drawing.Size(38, 32);
             this.S14.TabIndex = 406;
+            this.S14.Tag = "grid";
             this.S14.UseVisualStyleBackColor = false;
             this.S14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6279,6 +6649,7 @@
             this.Q15.Name = "Q15";
             this.Q15.Size = new System.Drawing.Size(38, 32);
             this.Q15.TabIndex = 407;
+            this.Q15.Tag = "grid";
             this.Q15.UseVisualStyleBackColor = false;
             this.Q15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6292,6 +6663,7 @@
             this.R15.Name = "R15";
             this.R15.Size = new System.Drawing.Size(38, 32);
             this.R15.TabIndex = 408;
+            this.R15.Tag = "grid";
             this.R15.UseVisualStyleBackColor = false;
             this.R15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6305,6 +6677,7 @@
             this.S15.Name = "S15";
             this.S15.Size = new System.Drawing.Size(38, 32);
             this.S15.TabIndex = 409;
+            this.S15.Tag = "grid";
             this.S15.UseVisualStyleBackColor = false;
             this.S15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6318,6 +6691,7 @@
             this.L12.Name = "L12";
             this.L12.Size = new System.Drawing.Size(38, 32);
             this.L12.TabIndex = 410;
+            this.L12.Tag = "grid";
             this.L12.UseVisualStyleBackColor = false;
             this.L12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6331,6 +6705,7 @@
             this.L13.Name = "L13";
             this.L13.Size = new System.Drawing.Size(38, 32);
             this.L13.TabIndex = 411;
+            this.L13.Tag = "grid";
             this.L13.UseVisualStyleBackColor = false;
             this.L13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6344,6 +6719,7 @@
             this.L14.Name = "L14";
             this.L14.Size = new System.Drawing.Size(38, 32);
             this.L14.TabIndex = 412;
+            this.L14.Tag = "grid";
             this.L14.UseVisualStyleBackColor = false;
             this.L14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6357,6 +6733,7 @@
             this.L15.Name = "L15";
             this.L15.Size = new System.Drawing.Size(38, 32);
             this.L15.TabIndex = 413;
+            this.L15.Tag = "grid";
             this.L15.UseVisualStyleBackColor = false;
             this.L15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6370,6 +6747,7 @@
             this.M12.Name = "M12";
             this.M12.Size = new System.Drawing.Size(38, 32);
             this.M12.TabIndex = 414;
+            this.M12.Tag = "grid";
             this.M12.UseVisualStyleBackColor = false;
             this.M12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6383,6 +6761,7 @@
             this.N14.Name = "N14";
             this.N14.Size = new System.Drawing.Size(38, 32);
             this.N14.TabIndex = 415;
+            this.N14.Tag = "grid";
             this.N14.UseVisualStyleBackColor = false;
             this.N14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6396,6 +6775,7 @@
             this.N13.Name = "N13";
             this.N13.Size = new System.Drawing.Size(38, 32);
             this.N13.TabIndex = 416;
+            this.N13.Tag = "grid";
             this.N13.UseVisualStyleBackColor = false;
             this.N13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6409,6 +6789,7 @@
             this.N12.Name = "N12";
             this.N12.Size = new System.Drawing.Size(38, 32);
             this.N12.TabIndex = 417;
+            this.N12.Tag = "grid";
             this.N12.UseVisualStyleBackColor = false;
             this.N12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6422,6 +6803,7 @@
             this.O14.Name = "O14";
             this.O14.Size = new System.Drawing.Size(38, 32);
             this.O14.TabIndex = 418;
+            this.O14.Tag = "grid";
             this.O14.UseVisualStyleBackColor = false;
             this.O14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6435,6 +6817,7 @@
             this.M14.Name = "M14";
             this.M14.Size = new System.Drawing.Size(38, 32);
             this.M14.TabIndex = 419;
+            this.M14.Tag = "grid";
             this.M14.UseVisualStyleBackColor = false;
             this.M14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6448,6 +6831,7 @@
             this.M13.Name = "M13";
             this.M13.Size = new System.Drawing.Size(38, 32);
             this.M13.TabIndex = 420;
+            this.M13.Tag = "grid";
             this.M13.UseVisualStyleBackColor = false;
             this.M13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6461,6 +6845,7 @@
             this.O13.Name = "O13";
             this.O13.Size = new System.Drawing.Size(38, 32);
             this.O13.TabIndex = 421;
+            this.O13.Tag = "grid";
             this.O13.UseVisualStyleBackColor = false;
             this.O13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6474,6 +6859,7 @@
             this.O12.Name = "O12";
             this.O12.Size = new System.Drawing.Size(38, 32);
             this.O12.TabIndex = 422;
+            this.O12.Tag = "grid";
             this.O12.UseVisualStyleBackColor = false;
             this.O12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6487,6 +6873,7 @@
             this.N15.Name = "N15";
             this.N15.Size = new System.Drawing.Size(38, 32);
             this.N15.TabIndex = 423;
+            this.N15.Tag = "grid";
             this.N15.UseVisualStyleBackColor = false;
             this.N15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6500,6 +6887,7 @@
             this.O15.Name = "O15";
             this.O15.Size = new System.Drawing.Size(38, 32);
             this.O15.TabIndex = 424;
+            this.O15.Tag = "grid";
             this.O15.UseVisualStyleBackColor = false;
             this.O15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6513,6 +6901,7 @@
             this.M15.Name = "M15";
             this.M15.Size = new System.Drawing.Size(38, 32);
             this.M15.TabIndex = 425;
+            this.M15.Tag = "grid";
             this.M15.UseVisualStyleBackColor = false;
             this.M15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6526,6 +6915,7 @@
             this.K13.Name = "K13";
             this.K13.Size = new System.Drawing.Size(38, 32);
             this.K13.TabIndex = 426;
+            this.K13.Tag = "grid";
             this.K13.UseVisualStyleBackColor = false;
             this.K13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6539,6 +6929,7 @@
             this.J14.Name = "J14";
             this.J14.Size = new System.Drawing.Size(38, 32);
             this.J14.TabIndex = 427;
+            this.J14.Tag = "grid";
             this.J14.UseVisualStyleBackColor = false;
             this.J14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6552,6 +6943,7 @@
             this.I15.Name = "I15";
             this.I15.Size = new System.Drawing.Size(38, 32);
             this.I15.TabIndex = 428;
+            this.I15.Tag = "grid";
             this.I15.UseVisualStyleBackColor = false;
             this.I15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6565,6 +6957,7 @@
             this.J15.Name = "J15";
             this.J15.Size = new System.Drawing.Size(38, 32);
             this.J15.TabIndex = 429;
+            this.J15.Tag = "grid";
             this.J15.UseVisualStyleBackColor = false;
             this.J15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6578,6 +6971,7 @@
             this.K15.Name = "K15";
             this.K15.Size = new System.Drawing.Size(38, 32);
             this.K15.TabIndex = 430;
+            this.K15.Tag = "grid";
             this.K15.UseVisualStyleBackColor = false;
             this.K15.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6591,6 +6985,7 @@
             this.K14.Name = "K14";
             this.K14.Size = new System.Drawing.Size(38, 32);
             this.K14.TabIndex = 431;
+            this.K14.Tag = "grid";
             this.K14.UseVisualStyleBackColor = false;
             this.K14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6604,6 +6999,7 @@
             this.J13.Name = "J13";
             this.J13.Size = new System.Drawing.Size(38, 32);
             this.J13.TabIndex = 432;
+            this.J13.Tag = "grid";
             this.J13.UseVisualStyleBackColor = false;
             this.J13.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6617,6 +7013,7 @@
             this.J12.Name = "J12";
             this.J12.Size = new System.Drawing.Size(38, 32);
             this.J12.TabIndex = 433;
+            this.J12.Tag = "grid";
             this.J12.UseVisualStyleBackColor = false;
             this.J12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6630,6 +7027,7 @@
             this.K12.Name = "K12";
             this.K12.Size = new System.Drawing.Size(38, 32);
             this.K12.TabIndex = 434;
+            this.K12.Tag = "grid";
             this.K12.UseVisualStyleBackColor = false;
             this.K12.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6643,6 +7041,7 @@
             this.I14.Name = "I14";
             this.I14.Size = new System.Drawing.Size(38, 32);
             this.I14.TabIndex = 435;
+            this.I14.Tag = "grid";
             this.I14.UseVisualStyleBackColor = false;
             this.I14.Click += new System.EventHandler(this.ChangeButton);
             // 
@@ -6656,38 +7055,39 @@
             this.I13.Name = "I13";
             this.I13.Size = new System.Drawing.Size(38, 32);
             this.I13.TabIndex = 436;
+            this.I13.Tag = "grid";
             this.I13.UseVisualStyleBackColor = false;
             this.I13.Click += new System.EventHandler(this.ChangeButton);
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zapiszWydrukToolStripMenuItem,
-            this.wyczyśćToolStripMenuItem});
+            this.PrintToolStripMenuItem,
+            this.ResetGridToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1006, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // zapiszWydrukToolStripMenuItem
+            // PrintToolStripMenuItem
             // 
-            this.zapiszWydrukToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.punktyToolStripMenuItem,
+            this.PrintToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.PointToolStripMenuItem,
             this.planszaToolStripMenuItem,
             this.planszaKolorToolStripMenuItem,
             this.planszaNaBlokKolorowyToolStripMenuItem});
-            this.zapiszWydrukToolStripMenuItem.Name = "zapiszWydrukToolStripMenuItem";
-            this.zapiszWydrukToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.zapiszWydrukToolStripMenuItem.Text = "Wydruk";
-            this.zapiszWydrukToolStripMenuItem.Click += new System.EventHandler(this.zapiszWydrukToolStripMenuItem_Click);
+            this.PrintToolStripMenuItem.Name = "PrintToolStripMenuItem";
+            this.PrintToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.PrintToolStripMenuItem.Text = "Wydruk";
+            this.PrintToolStripMenuItem.Click += new System.EventHandler(this.zapiszWydrukToolStripMenuItem_Click);
             // 
-            // punktyToolStripMenuItem
+            // PointToolStripMenuItem
             // 
-            this.punktyToolStripMenuItem.Name = "punktyToolStripMenuItem";
-            this.punktyToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
-            this.punktyToolStripMenuItem.Text = "Punkty";
-            this.punktyToolStripMenuItem.Click += new System.EventHandler(this.punktyToolStripMenuItem_Click);
+            this.PointToolStripMenuItem.Name = "PointToolStripMenuItem";
+            this.PointToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.PointToolStripMenuItem.Text = "Punkty";
+            this.PointToolStripMenuItem.Click += new System.EventHandler(this.punktyToolStripMenuItem_Click);
             // 
             // planszaToolStripMenuItem
             // 
@@ -6710,12 +7110,12 @@
             this.planszaNaBlokKolorowyToolStripMenuItem.Text = "Kwadraty na blok kolorowy";
             this.planszaNaBlokKolorowyToolStripMenuItem.Click += new System.EventHandler(this.planszaNaBlokKolorowyToolStripMenuItem_Click);
             // 
-            // wyczyśćToolStripMenuItem
+            // ResetGridToolStripMenuItem
             // 
-            this.wyczyśćToolStripMenuItem.Name = "wyczyśćToolStripMenuItem";
-            this.wyczyśćToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.wyczyśćToolStripMenuItem.Text = "Wyczyść";
-            this.wyczyśćToolStripMenuItem.Click += new System.EventHandler(this.wyczyśćToolStripMenuItem_Click);
+            this.ResetGridToolStripMenuItem.Name = "ResetGridToolStripMenuItem";
+            this.ResetGridToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.ResetGridToolStripMenuItem.Text = "Wyczyść";
+            this.ResetGridToolStripMenuItem.Click += new System.EventHandler(this.ResetGrid);
             // 
             // tableLayoutPanel2
             // 
@@ -7319,14 +7719,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1020, 971);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -7390,8 +7789,8 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem zapiszWydrukToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem wyczyśćToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PrintToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ResetGridToolStripMenuItem;
         private System.Windows.Forms.Button A1;
         private System.Windows.Forms.Button B1;
         private System.Windows.Forms.Button A3;
@@ -7834,7 +8233,7 @@
         private System.Windows.Forms.ListView listViewAqua;
         private System.Windows.Forms.ListView listViewMaroon;
         private System.Windows.Forms.ListView listViewYellow;
-        private System.Windows.Forms.ToolStripMenuItem punktyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PointToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem planszaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem planszaKolorToolStripMenuItem;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
