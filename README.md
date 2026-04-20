@@ -11,19 +11,19 @@ Designed for teachers, therapists, and educators who want to prepare printable p
 
 **2. Instruction mode (color‑by‑number)**
 
-<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap3.png" width="500" alt="EduPixelMap Screen 3">
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap3.png" width="400" alt="EduPixelMap Screen 3">
 
 **3. Printable worksheet preview**
 
-<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap4.png" width="500" alt="EduPixelMap Screen 4">
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap4.png" width="400" alt="EduPixelMap Screen 4">
 
 **4. Blank 20x20 grid (printable template)**
 
-<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap2.png" width="500" alt="EduPixelMap Screen 2">
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap2.png" width="400" alt="EduPixelMap Screen 2">
 
 **5. Color block grid overlay (cut-out squares)**
 
-<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap5.png" width="500" alt="EduPixelMap Screen 5">
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap5.png" width="400" alt="EduPixelMap Screen 5">
 
 # 3. Overview
 
