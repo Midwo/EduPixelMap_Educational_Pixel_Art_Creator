@@ -4,11 +4,27 @@ A simple and intuitive tool for creating 20×20 pixel‑art educational boards f
 
 Designed for teachers, therapists, and educators who want to prepare printable pixel‑art tasks for kids — coloring, gluing, spatial reasoning, and pattern‑following exercises.
 # 2. Screenshots: 
-![alt text](https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap1.png "EduPixelMap Screen 1")
-![alt text](https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap2.png "EduPixelMap Screen 2")
-![alt text](https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap3.png "EduPixelMap Screen 3")
-![alt text](https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap4.png "EduPixelMap Screen 4")
-![alt text](https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap5.png "EduPixelMap Screen 5")
+
+**1. Main drawing interface**
+
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap1.png" width="700" alt="EduPixelMap Screen 1">
+
+**2. Instruction mode (color‑by‑number)**
+
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap3.png" width="500" alt="EduPixelMap Screen 3">
+
+**3. Printable worksheet preview**
+
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap4.png" width="500" alt="EduPixelMap Screen 4">
+
+**4. Blank 20x20 grid (printable template)**
+
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap2.png" width="500" alt="EduPixelMap Screen 2">
+
+**5. Color block grid overlay (cut-out squares)**
+
+<img src="https://github.com/Midwo/EduPixelMap_Educational_Pixel_Art_Creator/blob/master/MapaEdukacyjna/GenMap5.png" width="500" alt="EduPixelMap Screen 5">
+
 # 3. Overview
 
 EduPixelMap is a lightweight Windows Forms application that allows users to:
