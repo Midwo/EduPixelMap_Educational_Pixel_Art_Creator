@@ -18,7 +18,7 @@ EduPixelMap is a lightweight Windows Forms application that allows users to:
 * create instruction sheets for children,
 * save and load projects.
 
-Originally created as a fast prototype for a special‑needs schoolOriginally created as a fast prototype for a special‑needs school.
+Originally created as a fast prototype for a special‑needs school.
 
 # 4. Features
 - **20×20 editable pixel grid** — click to fill cells with the selected color.
