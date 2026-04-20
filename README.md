@@ -1,4 +1,4 @@
-﻿# 1. EduPixelMap — Educational Pixel‑Art Creator (Windows Form APP)
+﻿# 1. EduPixelMap - Educational Pixel‑Art Creator (Windows Form APP)
  
 A simple and intuitive tool for creating 20×20 pixel‑art educational boards for children.
 
