@@ -21,26 +21,14 @@ EduPixelMap is a lightweight Windows Forms application that allows users to:
 Originally created as a fast prototype for a special‑needs schoolOriginally created as a fast prototype for a special‑needs school.
 
 # 4. Features
-* 20×20 editable pixel grid  
-    * Click to fill cells with the selected color.
-
-* Color picker  
-  * Choose any color and apply it to grid cells.
-
-* Clear board
-  * One click resets the entire grid.
-
-* Printable output  
-  * Generate a clean, kid‑friendly board for printing.
-
-* Instruction mode
-  * Create worksheets where children follow color‑coded instructions.
-
-* Simple, accessible UI
-  * Designed for teachers and young users.
+- **20×20 editable pixel grid** — click to fill cells with the selected color.
+- **Color picker** — choose any color and apply it to grid cells.
+- **Clear board** — reset the entire grid with one click.
+- **Printable output** — generate clean, kid‑friendly boards.
+- **Instruction mode** — create worksheets with color‑coded tasks.
+- **Simple, accessible UI** — designed for teachers and young users.
 
 # 5.  How It Works
-
 1. Each grid cell is represented by a button tagged as "grid".
 2. A single event handler updates the clicked cell’s color.
 3. Clearing the board iterates through all controls with the "grid" tag.
@@ -51,6 +39,15 @@ Originally created as a fast prototype for a special‑needs schoolOriginally cr
 * GDI+
 * Visual Studio
 
-# 7. License
+# 7. How to Run
+1. Clone the repository.
+2. Open the solution in Visual Studio.
+3. Build and run the project (F5).
+   
+# 8. Motivation
+This demo tool was originally created for a special‑needs school to help teachers prepare simple, printable pixel‑art worksheets.
+There are almost no free tools of this kind available online, so this project fills a small but real educational gap.
+
+# 9. License
 > [!NOTE]
 > MIT.
