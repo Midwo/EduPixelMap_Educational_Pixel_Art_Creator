@@ -48,6 +48,9 @@ Originally created as a fast prototype for a special‑needs school.
 This demo tool was originally created for a special‑needs school to help teachers prepare simple, printable pixel‑art worksheets.
 There are almost no free tools of this kind available online, so this project fills a small but real educational gap.
 
-# 9. License
+# 9. Contributing
+This is a small personal project, but if you want to report a bug or suggest an improvement, feel free to open an issue.
+
+# 10. License
 > [!NOTE]
 > MIT.
