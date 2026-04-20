@@ -473,9 +473,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.PrintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.planszaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.planszaKolorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.planszaNaBlokKolorowyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PrintWhiteEmptyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printBlockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ResetGridToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.button13 = new System.Windows.Forms.Button();
@@ -7074,9 +7074,9 @@
             // 
             this.PrintToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.PointToolStripMenuItem,
-            this.planszaToolStripMenuItem,
-            this.planszaKolorToolStripMenuItem,
-            this.planszaNaBlokKolorowyToolStripMenuItem});
+            this.PrintWhiteEmptyToolStripMenuItem,
+            this.printColorToolStripMenuItem,
+            this.printBlockToolStripMenuItem});
             this.PrintToolStripMenuItem.Name = "PrintToolStripMenuItem";
             this.PrintToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.PrintToolStripMenuItem.Text = "Wydruk";
@@ -7089,26 +7089,26 @@
             this.PointToolStripMenuItem.Text = "Punkty";
             this.PointToolStripMenuItem.Click += new System.EventHandler(this.punktyToolStripMenuItem_Click);
             // 
-            // planszaToolStripMenuItem
+            // PrintWhiteEmptyToolStripMenuItem
             // 
-            this.planszaToolStripMenuItem.Name = "planszaToolStripMenuItem";
-            this.planszaToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
-            this.planszaToolStripMenuItem.Text = "Plansza pusta";
-            this.planszaToolStripMenuItem.Click += new System.EventHandler(this.planszaToolStripMenuItem_Click);
+            this.PrintWhiteEmptyToolStripMenuItem.Name = "PrintWhiteEmptyToolStripMenuItem";
+            this.PrintWhiteEmptyToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.PrintWhiteEmptyToolStripMenuItem.Text = "Plansza pusta";
+            this.PrintWhiteEmptyToolStripMenuItem.Click += new System.EventHandler(this.printWhiteEmptyToolStripMenuItem_Click);
             // 
-            // planszaKolorToolStripMenuItem
+            // printColorToolStripMenuItem
             // 
-            this.planszaKolorToolStripMenuItem.Name = "planszaKolorToolStripMenuItem";
-            this.planszaKolorToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
-            this.planszaKolorToolStripMenuItem.Text = "Plansza kolor";
-            this.planszaKolorToolStripMenuItem.Click += new System.EventHandler(this.planszaKolorToolStripMenuItem_Click);
+            this.printColorToolStripMenuItem.Name = "printColorToolStripMenuItem";
+            this.printColorToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.printColorToolStripMenuItem.Text = "Plansza kolor";
+            this.printColorToolStripMenuItem.Click += new System.EventHandler(this.printColorToolStripMenuItem_Click);
             // 
-            // planszaNaBlokKolorowyToolStripMenuItem
+            // printBlockToolStripMenuItem
             // 
-            this.planszaNaBlokKolorowyToolStripMenuItem.Name = "planszaNaBlokKolorowyToolStripMenuItem";
-            this.planszaNaBlokKolorowyToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
-            this.planszaNaBlokKolorowyToolStripMenuItem.Text = "Kwadraty na blok kolorowy";
-            this.planszaNaBlokKolorowyToolStripMenuItem.Click += new System.EventHandler(this.planszaNaBlokKolorowyToolStripMenuItem_Click);
+            this.printBlockToolStripMenuItem.Name = "printBlockToolStripMenuItem";
+            this.printBlockToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.printBlockToolStripMenuItem.Text = "Kwadraty na blok kolorowy";
+            this.printBlockToolStripMenuItem.Click += new System.EventHandler(this.printBlockToolStripMenuItem_Click);
             // 
             // ResetGridToolStripMenuItem
             // 
@@ -8234,11 +8234,11 @@
         private System.Windows.Forms.ListView listViewMaroon;
         private System.Windows.Forms.ListView listViewYellow;
         private System.Windows.Forms.ToolStripMenuItem PointToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem planszaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem planszaKolorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PrintWhiteEmptyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem printColorToolStripMenuItem;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
         private System.Drawing.Printing.PrintDocument printDocument1;
-        private System.Windows.Forms.ToolStripMenuItem planszaNaBlokKolorowyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem printBlockToolStripMenuItem;
     }
 }
 
