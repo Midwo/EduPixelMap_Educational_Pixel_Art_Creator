@@ -2,7 +2,7 @@
  
 A simple and intuitive tool for creating 20×20 pixel‑art educational boards for children.
 
-Designed for teachers, therapists, and educators who want to prepare printable pixel‑art tasks for kids — coloring, gluing, spatial reasoning, and pattern‑following exercises.
+Designed for teachers, therapists, and educators who want to prepare printable pixel‑art tasks for kids - coloring, gluing, spatial reasoning, and pattern‑following exercises.
 # 2. Screenshots: 
 
 **1. Main drawing interface**
